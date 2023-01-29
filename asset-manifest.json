@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Cloud-app-react/static/css/main.e87e224d.css",
+    "main.js": "/Cloud-app-react/static/js/main.ecd0f7f1.js",
+    "static/js/787.7c03509b.chunk.js": "/Cloud-app-react/static/js/787.7c03509b.chunk.js",
+    "static/media/institution-3.jpg": "/Cloud-app-react/static/media/institution-3.c7e4524ead58ee794a91.jpg",
+    "static/media/institution.jpg": "/Cloud-app-react/static/media/institution.7bc4e0bb61d2bee16bc7.jpg",
+    "index.html": "/Cloud-app-react/index.html",
+    "main.e87e224d.css.map": "/Cloud-app-react/static/css/main.e87e224d.css.map",
+    "main.ecd0f7f1.js.map": "/Cloud-app-react/static/js/main.ecd0f7f1.js.map",
+    "787.7c03509b.chunk.js.map": "/Cloud-app-react/static/js/787.7c03509b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e87e224d.css",
+    "static/js/main.ecd0f7f1.js"
+  ]
+}
