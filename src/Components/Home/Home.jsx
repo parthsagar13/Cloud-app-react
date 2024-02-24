@@ -35,7 +35,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <div id="h1-line">
+      {/* <div id="h1-line">
         <hr />
         <h1>Top Categories to choose from</h1>
         <hr />
@@ -45,7 +45,7 @@ export default function Home() {
         <img src={img2} alt="" />
         <img src={img3} alt="" />
         <img src={img4} alt="" />
-      </div>
+      </div> */}
       <div id="h1-line2">
         <hr />
         <h1>Top Products for You!!!</h1>
