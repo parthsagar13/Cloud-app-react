@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 let Nav = styled.nav`
-  position: sticky;
+  /* position: sticky; */
   top: 0px;z-index:1;
   #top {
     display: flex;
     align-items: center;
-    padding: 17px 2.8vw;
+    justify-content: space-between;
+    /* padding: 17px 2.8vw; */
     background-color: white;
     color: #000;
     border-bottom: 1px solid #dfdfdf;
