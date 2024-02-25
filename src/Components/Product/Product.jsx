@@ -4,19 +4,23 @@ import { Main } from "../Home/Styled-Home";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../Redux/action.js";
+import { useNavigate } from "react-router-dom";
+ 
 import { Link } from "react-router-dom";
-
+ 
 import { FaShoppingCart, FaStar } from "react-icons/fa";
 // import "../Home/Styled-Home.jsx";
 import { Section } from "./Styled-Product";
 
 import "./product.css";
-let i;
+let i;  
 export default function Product() {
   let products = [...allProducts];
   products.sort(() => Math.random() - 0.5);
   // console.log(allProducts);
   let { id } = useParams();
+  const navigate = useNavigate();
+
   let [state, setState] = React.useState("Add to Cart");
   let [count, setCount] = React.useState(1);
   let [image, setImage] = React.useState("");
@@ -24,7 +28,7 @@ export default function Product() {
   let dispatch = useDispatch();
   console.log(id);
   for (i = 0; i < allProducts.length; i++) {
-    if (allProducts[i].id === +id) {
+    if (allProducts[i].id === +id) {  
       break;
     }
   }
@@ -172,7 +176,7 @@ export default function Product() {
         <p style={{ border:"1px solid rgb(159 32 137)",fontSize:'18px',borderRadius:"6px", padding:'6px 25px'}}>{count}</p>
         <p style={{ cursor:"pointer"}} onClick={() => setCount(count + 1)}>+</p>
         </div>
-        <button style={{padding:'1rem 2.5rem',border:"none",borderRadius:"12px", backgroundColor:'rgb(159 32 137)', color:'white' }}>Buy Now</button>
+        <button style={{padding:'1rem 2.5rem', cursor:"pointer", border:"none",borderRadius:"12px", backgroundColor:'rgb(159 32 137)', color:'white' }} onClick={() =>  navigate("/checkout/address")}>Buy Now</button>
       </div>
     </>
   );
