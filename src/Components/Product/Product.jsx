@@ -2,15 +2,15 @@ import React from "react";
 import { allProducts } from "../../AllProducts";
 import { Main } from "../Home/Styled-Home";
 import { useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from "../../Redux/action.js";
+// import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-import { FaShoppingCart, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 // import "../Home/Styled-Home.jsx";
 import { Section } from "./Styled-Product";
 
 import "./product.css";
+import staticIcon from "../../Helper/images";
 let i;
 export default function Product() {
   let products = [...allProducts];
@@ -20,8 +20,8 @@ export default function Product() {
   // let [state, setState] = React.useState("Add to Cart");
   let [count, setCount] = React.useState(1);
   let [image, setImage] = React.useState("");
-  let cart = useSelector((state) => state.cart);
-  let dispatch = useDispatch();
+  // let cart = useSelector((state) => state.cart);
+  // let dispatch = useDispatch();
   console.log(id);
   for (i = 0; i < allProducts.length; i++) {
     if (allProducts[i].id === +id) {
@@ -36,7 +36,7 @@ export default function Product() {
   // };
 
   console.log(allProducts[i], i);
-  let { img, name, soldBy, sprice, aprice, rating, reviews, details } =
+  let { img, name, sprice, aprice, rating, reviews, details } =
     allProducts[i] || allProducts[0];
   React.useEffect(() => {
     setImage(img);
@@ -173,7 +173,24 @@ export default function Product() {
           <p style={{ border: "1px solid rgb(159 32 137)", fontSize: '18px', borderRadius: "6px", padding: '6px 25px' }}>{count}</p>
           <p style={{ cursor: "pointer" }} onClick={() => setCount(count + 1)}>+</p>
         </div>
-        <button style={{ padding: '1rem 2.5rem', border: "none", borderRadius: "12px", backgroundColor: 'rgb(159 32 137)', color: 'white' }}>Buy Now</button>
+        <button
+          style={{
+            padding: '1rem 2.5rem',
+            fontSize: "1rem",
+            border: "none",
+            borderRadius: "12px",
+            backgroundColor: 'rgb(159 32 137)',
+            color: 'white',
+            display: "flex",
+            alignItems: "center",
+            gap: '0.3rem'
+          }}>
+          <img
+            src={staticIcon.ArrowIcon}
+            loading="lazy"
+            alt={"arrow"}
+          /> Buy Now
+        </button>
       </div>
     </>
   );
