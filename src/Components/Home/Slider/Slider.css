@@ -1,0 +1,53 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 10%;
+    height: 10%;
+    transition: opacity 0.5s ease;
+  }
+  
+  img.active {
+    opacity: 1;
+  }
+  
+  img.inactive {
+    opacity: 0;
+  }
+  
+  /* Positioning of the previous and next buttons */
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  
+  .slider-container {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px; /* Add some space between images */
+  }
+  
+  .active {
+    opacity: 1;
+  }
+
+
+  
