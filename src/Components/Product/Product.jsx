@@ -4,13 +4,12 @@ import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../Redux/action.js";
 import { Link } from "react-router-dom";
-import "../Home/Home.css";
-
 
 import {
   FaShoppingCart,
   FaStar,
 } from "react-icons/fa";
+import "../Home/Styled-Home.jsx";
 import { Section } from "./Styled-Product";
 
 import "./product.css";
@@ -55,7 +54,7 @@ export default function Product() {
         <img src={image} alt="" id="main-img" />
         {/* <p className="more">+ {Math.floor(Math.random() * 7) + 1} More</p> */}
         <button id={+id} onClick={clcHandler}>
-          {/* <MdOutlineKeyboardDoubleArrowRight /> Buy Now */}
+          <FaShoppingCart /> {state}
         </button>
         {/* <hr />
         <p>3 Similar products</p>
@@ -102,21 +101,21 @@ export default function Product() {
       </article>
       <div>
       <section id="products" >
-        {/* {products
+        {products
           .slice(0, 80)
           .map(
             (
               { img, name, soldBy, sprice, aprice, rating, reviews, id },
               index
-            ) => ( */}
+            ) => (
               <Link to={`/product/${id}`}>
-                <div >
-                  <img src="https://images.meesho.com/images/products/41713416/fef4b_512.jpg" alt="" className="main-img" />
-                  <p className="product-name">Mandarin Collar Muslin All Over Floral </p>
+                <div key={index} >
+                  <img src={img} alt="" className="main-img" />
+                  <p className="product-name">{name}</p>
                   <p className="price">
-                    ₹{sprice} <span className="aprice">₹ 195</span>{" "}
+                    ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
                     <span className="discount">
-                    95 % off
+                      {((1 - sprice / aprice) * 100).toFixed(1)}% off
                     </span>
                   </p>
 
@@ -169,7 +168,9 @@ export default function Product() {
                   </p>
                 </div>
               </Link>
-      </section>
+            )
+          )}
+        </section>
       </div>
     </Section>
   );
