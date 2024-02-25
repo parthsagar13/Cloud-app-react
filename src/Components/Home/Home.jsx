@@ -22,7 +22,7 @@ export default function Home() {
     <>
       {/* <Slider/>
       <SlliderView/> */}
-          <div style={{ display:"flex", justifyContent:"space-between" , padding:"0.5rem 1rem",}}>
+          <div style={{ display:"flex", justifyContent:"space-between" , backgroundColor:" rgb(241 245 249)",padding:"0.5rem 1rem",}}>
             <div style={{display:"flex",flexDirection:'column', gap:'0.3rem'}}>
               <p style={{ fontSize:"1rem" ,marginBottom:'2px'}}>Deals of the day</p>
               <p style={{display:"flex", gap:'0.3rem'}}>
