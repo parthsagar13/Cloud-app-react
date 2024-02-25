@@ -7,7 +7,6 @@ import SlliderView from "./SliderComponent/SliderComponent";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import "./Home.css";
-import Footer from "../Footer/Footer";
 
 export default function Home() {
 
@@ -20,7 +19,7 @@ export default function Home() {
 
       <SlliderView />
 
-      <div>
+      <div style={{ margin: "1rem" }}>
         <img src="https://kalamandir.online/static/media/Poster1.8c0aff28d27a959880ff.webp" style={{ width: "100%" }} alt="" />
       </div>
 
@@ -33,7 +32,7 @@ export default function Home() {
             .slice(0, 80)
             .map(
               (
-                { img, name, soldBy, sprice, off, aprice, rating, reviews, id },
+                { img, name, soldBy, sprice, aprice, rating, reviews, id },
                 index
               ) => (
                 <Link to={`/product/${id}`}>
@@ -43,8 +42,7 @@ export default function Home() {
                     <p className="price">
                       ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
                       <span className="discount">
-                        {/* {((1 - sprice / aprice) * 100).toFixed(1)}% off */}
-                        {off}% off
+                        {((1 - sprice / aprice) * 100).toFixed(1)}% off
                       </span>
                     </p>
 
@@ -101,7 +99,6 @@ export default function Home() {
             )}
         </section>
       </Main>
-      <Footer />
     </>
   );
 }
