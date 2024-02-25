@@ -19,6 +19,8 @@ export default function Product() {
   products.sort(() => Math.random() - 0.5);
   // console.log(allProducts);
   let { id } = useParams();
+  const navigate = useNavigate();
+
   let [state, setState] = React.useState("Add to Cart");
   let [count, setCount] = React.useState(1);
   let [image, setImage] = React.useState("");
@@ -30,15 +32,15 @@ export default function Product() {
       break;
     }
   }
-  // if (cart.includes(+id)) state = "Already in the Cart";
+  if (cart.includes(+id)) state = "Already in the Cart";
 
-  // const clcHandler = (e) => {
-  //   dispatch(addToCart(e.target.id));
-  //   if (state === "Add to Cart") setState("Already in the Cart");
-  // };
+  const clcHandler = (e) => {
+    dispatch(addToCart(e.target.id));
+    if (state === "Add to Cart") setState("Already in the Cart");
+  };
 
   console.log(allProducts[i], i);
-  let { img, name, soldBy, sprice, aprice, rating, reviews, details } =
+  let { img, name, soldBy, similar, sprice, aprice, rating, reviews, details } =
     allProducts[i] || allProducts[0];
   React.useEffect(() => {
     setImage(img);
@@ -50,18 +52,18 @@ export default function Product() {
         <article id="product-article-1"></article>
         <article id="product-article-2">
           <img src={image} alt="" id="main-img" />
-          {/* <button id={+id} onClick={clcHandler}>
+          <button id={+id} onClick={clcHandler}>
             <FaShoppingCart /> {state}
-          </button> */}
+          </button>
         </article>
         <article id="product-article-3">
           <div id="price">
             <h2>{name}</h2>
             <h3 className="price">
               ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
-              {/* <span className="discount">
+              <span className="discount">
                 {((1 - sprice / aprice) * 100).toFixed(1)}% off
-              </span> */}
+              </span>
             </h3>
             <h4 className="rating">
               <span>
@@ -96,7 +98,7 @@ export default function Product() {
             .slice(0, 4)
             .map(
               (
-                { img, name, soldBy, sprice, off, aprice, rating, reviews, id },
+                { img, name, soldBy, sprice, aprice, rating, reviews, id },
                 index
               ) => (
                 <Link to={`/product/${id}`} key={index}>
@@ -106,8 +108,7 @@ export default function Product() {
                     <p className="price">
                       ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
                       <span className="discount">
-                        {/* {((1 - sprice / aprice) * 100).toFixed(1)}% off */}
-                        {off}% off
+                        {((1 - sprice / aprice) * 100).toFixed(1)}% off
                       </span>
                     </p>
                     <p className="firstorder">Free delivery</p>
@@ -170,12 +171,12 @@ export default function Product() {
           borderTop: "1px solid #ccc",
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', color: "rgb(159 32 137)", gap: '0.5rem', fontSize: "2rem" }}>
-          <p style={{ cursor: "pointer" }} onClick={() => setCount(count - 1)}>-</p>
-          <p style={{ border: "1px solid rgb(159 32 137)", fontSize: '18px', borderRadius: "6px", padding: '6px 25px' }}>{count}</p>
-          <p style={{ cursor: "pointer" }} onClick={() => setCount(count + 1)}>+</p>
+        <div style={{ display:'flex',alignItems:'center',color:"rgb(159 32 137)", gap:'0.5rem', fontSize:"2rem"}}>
+        <p style={{ cursor:"pointer"}} onClick={() => setCount(count - 1)}>-</p>
+        <p style={{ border:"1px solid rgb(159 32 137)",fontSize:'18px',borderRadius:"6px", padding:'6px 25px'}}>{count}</p>
+        <p style={{ cursor:"pointer"}} onClick={() => setCount(count + 1)}>+</p>
         </div>
-        <button style={{padding:'1rem 2.5rem',border:"none",borderRadius:"12px", backgroundColor:'rgb(159 32 137)', color:'white' }}>Buy Now</button>
+        <button style={{padding:'1rem 2.5rem', cursor:"pointer", border:"none",borderRadius:"12px", backgroundColor:'rgb(159 32 137)', color:'white' }} onClick={() =>  navigate("/checkout/address")}>Buy Now</button>
       </div>
     </>
   );
