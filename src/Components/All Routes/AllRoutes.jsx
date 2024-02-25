@@ -6,7 +6,6 @@ import Cart from "../Cart/Cart";
 import Address from "../Address/Address";
 import Payment from "../Payment/Payment";
 import Summary from "../Summary/Summary";
-import Footer from "../Footer/Footer";
 import Checkout from "../Checkout/Checkout";
 
 export default function AllRoutes() {
@@ -54,7 +53,6 @@ export default function AllRoutes() {
           }
         />
       </Routes>
-      <Footer />
     </>
   );
 }

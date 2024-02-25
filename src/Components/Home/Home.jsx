@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Main } from "./Styled-Home";
 import { allProducts } from "../../AllProducts";
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 import SlliderView from "./SliderComponent/SliderComponent";
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 import "./Home.css";
 
@@ -13,15 +12,15 @@ export default function Home() {
   let products = [...allProducts];
   products.sort(() => Math.random() - 0.5);
 
-
   return (
     <>
-
       <SlliderView />
 
-      <div style={{ margin: "1rem" }}>
-        <img src="https://kalamandir.online/static/media/Poster1.8c0aff28d27a959880ff.webp" style={{ width: "100%" }} alt="" />
-      </div>
+      <section style={{background: "rgb(241 245 249)"}}>
+        <div style={{ padding: "10px 0px", background: 'white' }}>
+          <img src="https://kalamandir.online/static/media/Poster1.8c0aff28d27a959880ff.webp" style={{ width: "100%" }} alt="" />
+        </div>
+      </section>
 
       <Main>
         <div id="h1-line2">
@@ -99,6 +98,8 @@ export default function Home() {
             )}
         </section>
       </Main>
+      
+      <Footer />
     </>
   );
 }

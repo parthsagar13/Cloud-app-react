@@ -43,6 +43,10 @@ export default function SliderComponent() {
         'https://kalamandir.online/static/media/c7.80b4cda9bf6e766fa099.webp',
         'https://kalamandir.online/static/media/c8.cab07317ed5bf663e4c5.webp',
         'https://kalamandir.online/static/media/c9.05a357ab1a826f082d82.webp',
+        'https://kalamandir.online/static/media/c10.2a9cec5aa82c1408f553.webp',
+        'https://kalamandir.online/static/media/c12.0c764c1b490978dff3d8.webp',
+        'https://kalamandir.online/static/media/c13.c5044c3eaa6903c18080.webp',
+        'https://kalamandir.online/static/media/c14.d52c256eb905be8b9b3e.webp'
     ];
 
     const swiperStyle2 = {
@@ -58,8 +62,8 @@ export default function SliderComponent() {
     };
 
     return (
-        <div>
-            <section style={{ display: "flex", justifyContent: "space-between", padding: "0.5rem 1rem", backgroundColor: 'rgb(241 245 249)' }}>
+        <div style={{background: "rgb(241 245 249)"}}>
+            <section style={{ display: "flex", justifyContent: "space-between", padding: "0.5rem 1rem"}}>
                 <div style={{ display: "flex", flexDirection: 'column', gap: '0.3rem' }}>
                     <p style={{ fontSize: "1rem", marginBottom: '2px' }}>Deals of the day</p>
                     <p style={{ display: "flex", gap: '0.3rem' }}>
@@ -83,7 +87,7 @@ export default function SliderComponent() {
                     Sale is Live
                 </div>
             </section>
-            <section style={{ paddingBottom: '0.5rem', paddingTop: '0.5rem' }}>
+            <section style={{ paddingBottom: '0.5rem', paddingTop: '0.5rem', background: "white" }}>
                 <Swiper
                     style={swiperStyle2}
                     spaceBetween={1}
@@ -97,18 +101,20 @@ export default function SliderComponent() {
                     ))}
                 </Swiper>
             </section>
-            <Swiper
-                style={swiperStyle}
-                spaceBetween={50}
-                slidesPerView={1}
-                autoplay={{ delay: 1000 }}
-            >
-                {images.map((image, index) => (
-                    <SwiperSlide key={index}>
-                        <img style={imageStyle} src={image} alt={`Slide ${index + 1}`} />
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+            <section style={{marginTop: '10px', padding: "10px 0px", background: 'white'}}>
+                <Swiper
+                    style={swiperStyle}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    autoplay={{ delay: 1000 }}
+                >
+                    {images.map((image, index) => (
+                        <SwiperSlide key={index}>
+                            <img style={imageStyle} src={image} alt={`Slide ${index + 1}`} />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </section>
         </div>
     );
 };

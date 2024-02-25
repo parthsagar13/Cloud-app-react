@@ -2,18 +2,16 @@ import React from "react";
 import { allProducts } from "../../AllProducts";
 import { Main } from "../Home/Styled-Home";
 import { useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { addToCart } from "../../Redux/action.js";
-import { useNavigate } from "react-router-dom";
- 
+// import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
- 
-import { FaShoppingCart, FaStar } from "react-icons/fa";
+
+import { FaStar } from "react-icons/fa";
 // import "../Home/Styled-Home.jsx";
 import { Section } from "./Styled-Product";
 
 import "./product.css";
-let i;  
+import staticIcon from "../../Helper/images";
+let i;
 export default function Product() {
   let products = [...allProducts];
   products.sort(() => Math.random() - 0.5);
@@ -24,8 +22,8 @@ export default function Product() {
   let [state, setState] = React.useState("Add to Cart");
   let [count, setCount] = React.useState(1);
   let [image, setImage] = React.useState("");
-  let cart = useSelector((state) => state.cart);
-  let dispatch = useDispatch();
+  // let cart = useSelector((state) => state.cart);
+  // let dispatch = useDispatch();
   console.log(id);
   for (i = 0; i < allProducts.length; i++) {
     if (allProducts[i].id === +id) {  
@@ -40,7 +38,7 @@ export default function Product() {
   };
 
   console.log(allProducts[i], i);
-  let { img, name, soldBy, similar, sprice, aprice, rating, reviews, details } =
+  let { img, name, sprice, aprice, rating, reviews, details } =
     allProducts[i] || allProducts[0];
   React.useEffect(() => {
     setImage(img);
