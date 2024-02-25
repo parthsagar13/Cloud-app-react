@@ -130,6 +130,7 @@ let allProducts = [
     type: "Women Ethnic",
     id: 2,
     sprice: 586,
+    sprice: 586,
     aprice: 636,
     rating: 3.3,
     reviews: 37,

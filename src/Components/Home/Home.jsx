@@ -1,13 +1,11 @@
 import React from "react";
 import { Main } from "./Styled-Home";
-import img1 from "./Images/img1.png";
-import img2 from "./Images/img2.png";
-import img3 from "./Images/img3.png";
-import img4 from "./Images/img4.png";
 import { allProducts } from "../../AllProducts";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { FaStar } from "react-icons/fa";
+import Slider from "./Slider/Slider";
+import SlliderView from "./SliderComponent/SliderComponent";
 
 export default function Home() {
   let products = [...allProducts];
@@ -15,6 +13,8 @@ export default function Home() {
   // console.log(allProducts);
   return (
     <Main>
+      {/* <Slider/>
+      <SlliderView/> */}
       <section id="homepage">
         <div>
           <h1>Lowest Prices</h1>

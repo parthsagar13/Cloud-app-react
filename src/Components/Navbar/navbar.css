@@ -36,14 +36,8 @@
 }
 @media (max-width: 800px) {
   #bottom,
-  #top p {
-    display: none !important;
-  }
-  #top {
-    padding-right: 33px !important;
-  }
   #top #logo {
-    width: 80px;
+    width: 100px;
   }
 }
 
