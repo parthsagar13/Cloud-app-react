@@ -51,7 +51,6 @@ export default function SliderComponent() {
     };
 
     const imageStyle2 = {
-        width: '126.6px',
         marginLeft: "50px",
         marginRight: '30px',
         borderRadius: "50%"
@@ -61,8 +60,8 @@ export default function SliderComponent() {
         <div>
             <section style={{ display: "flex", justifyContent: "space-between", padding: "0.5rem 1rem", backgroundColor: 'rgb(241 245 249)' }}>
                 <div style={{ display: "flex", flexDirection: 'column', gap: '0.3rem' }}>
-                    <p style={{ fontSize: "1rem", marginBottom: '2px' }}>Deals of the day</p>
-                    <p style={{ display: "flex", gap: '0.3rem' }}>
+                    <p style={{ fontSize: "1rem", marginBottom: '2px', color: "#334155" }}>Deals of the day</p>
+                    <p style={{ display: "flex", gap: '0.3rem', color: "#334155" }}>
                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                             <path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path>
                         </svg>
@@ -83,7 +82,7 @@ export default function SliderComponent() {
                     Sale is Live
                 </div>
             </section>
-            <section style={{ paddingBottom: '0.5rem', paddingTop: '0.5rem' }}>
+            <section style={{ paddingBottom: '0.5rem', paddingTop: '0.5rem', margin: "10px", background: "white" }}>
                 <Swiper
                     style={swiperStyle2}
                     spaceBetween={1}
