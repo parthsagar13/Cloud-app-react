@@ -92,7 +92,7 @@ export function ProductS() {
           .slice((index % 5) * 16, (index % 5) * 16 + 16)
           .map(
             (
-              { img, name, soldBy, sprice, aprice, rating, reviews, id },
+              { img, name, soldBy, sprice, off, aprice, rating, reviews, id },
               index
             ) => (
               <div key={index} onClick={() => navigate(`/product/${id}`)}>
@@ -105,7 +105,8 @@ export function ProductS() {
                 <p className="price">
                   ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
                   <span className="discount">
-                    {((1 - sprice / aprice) * 100).toFixed(1)}% off
+                    {/* {((1 - sprice / aprice) * 100).toFixed(1)}% off */}
+                    {off}% off
                   </span>
                 </p>
 
