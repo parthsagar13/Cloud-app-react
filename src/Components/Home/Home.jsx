@@ -7,14 +7,43 @@ import { FaStar } from "react-icons/fa";
 import Slider from "./Slider/Slider";
 import SlliderView from "./SliderComponent/SliderComponent";
 
+// images 
+import img1 from "../Home/Images/img1.png";
+import img2 from "../Home/Images/img2.png";
+import img3 from "../Home/Images/img3.png";
+import img4 from "../Home/Images/img4.png";
+import { Box } from "@material-ui/core";
+
 export default function Home() {
   let products = [...allProducts];
   products.sort(() => Math.random() - 0.5);
   // console.log(allProducts);
   return (
-    <Main>
+    <>
       {/* <Slider/>
       <SlliderView/> */}
+          <div style={{ display:"flex", justifyContent:"space-between" , padding:"0.5rem 1rem",}}>
+            <div style={{display:"flex",flexDirection:'column', gap:'0.3rem'}}>
+              <p style={{ fontSize:"1rem" ,marginBottom:'2px'}}>Deals of the day</p>
+              <p style={{display:"flex", gap:'0.3rem'}}>
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path></svg>
+                15:00</p>
+              
+            </div>
+            <buttons style={{ padding:"0.5rem" , backgroundColor:'white',color:"red", fontSize:"1rem" ,borderRadius:"0.5rem" , borderColor:'white'}}>Sale is Live</buttons>
+          </div>
+          <div style={{ display:"flex", justifyContent:"space-around" , backgroundColor:"white", padding:"1rem",}}>
+            <img src="https://kalamandir.online/static/media/c2.52cd5e20a74c625da15b.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c1.6892f317534061e0f574.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c2.52cd5e20a74c625da15b.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c1.6892f317534061e0f574.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c1.6892f317534061e0f574.webp" style={{ borderRadius:'50%'}} alt="" />
+          </div>
+          <div style={{  margin :"1rem"}}>
+            <img src="https://kalamandir.online/static/media/Poster1.8c0aff28d27a959880ff.webp" style={{ width:"100%"}} alt="" />      
+          </div>
+
+          <Main>
       <section id="homepage">
         <div>
           <h1>Lowest Prices</h1>
@@ -44,14 +73,11 @@ export default function Home() {
         <img src={img1} alt="" />
         <img src={img2} alt="" />
         <img src={img3} alt="" />
-        <img src={img4} alt="" />
       </div> */}
       <div id="h1-line2">
-        <hr />
-        <h1>Top Products for You!!!</h1>
-        <hr />
+       <div style={{ backgroundColor:"white",width:'100%', padding:"0.8rem", fontWeight:"bold", fontSize:'1rem' }}>Products For You</div>
       </div>
-      <section id="products">
+      <section id="products" >
         {products
           .slice(0, 80)
           .map(
@@ -60,13 +86,12 @@ export default function Home() {
               index
             ) => (
               <Link to={`/product/${id}`}>
-                <div key={index}>
+                <div key={index} >
                   <img src={img} alt="" className="main-img" />
                   {/* <p className="quantity">
                     + {Math.floor(Math.random() * 7) + 1} More
                   </p> */}
                   <p className="product-name">{name}</p>
-                  <p className="mkt">Sold By: {soldBy}</p>
                   <p className="price">
                     ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
                     <span className="discount">
@@ -75,11 +100,7 @@ export default function Home() {
                   </p>
 
                   <p className="firstorder">
-                    <img
-                      src="https://www.svgrepo.com/show/250311/percentage-discount.svg"
-                      alt=""
-                    />
-                    ₹{Math.floor(Math.random() * 150)} discount on 1st order
+                   Free delivery
                   </p>
                   <p className="rating">
                     <span
@@ -88,9 +109,10 @@ export default function Home() {
                           rating >= 3.5 ? " #23bb75" : "rgb(244, 182, 25) ",
                       }}
                     >
-                      {rating} <FaStar color="#fff" />
+                      {rating}
+                       <FaStar />
                     </span>{" "}
-                    {reviews} Reviews
+                    ({reviews})
                   </p>
                   <p className="meesho-trust">
                     <svg
@@ -129,6 +151,7 @@ export default function Home() {
             )
           )}
       </section>
-    </Main>
+      </Main>
+    </>
   );
 }

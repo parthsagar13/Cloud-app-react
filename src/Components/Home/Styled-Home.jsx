@@ -1,19 +1,18 @@
 import styled from "styled-components";
 
 let Main = styled.main`
-  padding: 50px 3.2vw;
   #homepage {
     display: grid;
     margin: 5px 3.8vw;
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
-    background-color: #f9f9f9;
+    background-color:white;
     @media (max-width: 1100px) {
       grid-template-columns: 1fr;
     }
 
     div {
-      &:nth-of-type(1) {
+      &:nth-of-type(1d) {
         padding: 50px;
         @media (max-width: 600px) {
           padding: 50px 20px;
@@ -103,7 +102,7 @@ let Main = styled.main`
   #h1-line2 {
     display: flex;
     align-items: center;
-    margin-bottom: 65px;
+    margin-bottom: 8px;
 
     hr {
       flex-grow: 1;
@@ -124,20 +123,23 @@ let Main = styled.main`
       justify-content: center;
     }
     div {
+      @media (max-width: 730px) {
+      justify-content: center;
       width: 300px;
-      margin: 0 10px;
-      margin-bottom: 50px;
+    }
+    @media (max-width: 1100px) {
+      width: 300px;
+        }
+      width: 650px;
+      margin: 0 0px;
+      margin-bottom: 5px;
       box-shadow: 1px 1px 6px 1px #e3e3e3;
       border-radius: 5px;
       overflow: hidden;
       position: relative;
       padding-bottom: 4px;
-      background-color: #f9f9f9;
+      background-color:white;
       transition: 01s cubic-bezier(0.075, 0.82, 0.165, 1);
-      &:hover {
-        transform: scale(1.03);
-        box-shadow: 1px 1px 10px 1px #d0d0d0;
-      }
       .main-img {
         height: 360px;
         width: 100%;
@@ -148,33 +150,40 @@ let Main = styled.main`
     .product-name {
       font-size: 17px;
       font-weight: 500;
+      background-color:white;
       margin: 0 12px 9px;
     }
     .mkt {
       margin: 0 12px 6px;
       font-size: 12.5px;
+      background-color:white;
       color: rgb(88, 88, 88);
     }
     .price {
       font-size: 19px;
       font-weight: bold;
       margin: 0 12px 6px;
+      background-color:white;
       line-height: 160%;
     }
     .aprice {
       font-size: 15px;
       text-decoration: line-through;
       font-weight: normal;
+      background-color:white;
       color: rgb(88, 88, 88);
       margin: 3px;
     }
     .discount {
-      color: #038d63;
-      font-size: 17px;
+      /* color: #038d63; */
+      font-weight: normal;
+      font-size: 15px;
+      background-color: white;
     }
     .firstorder {
       color: rgb(95, 94, 94);
       font-size: 15px;
+      background-color:white;
       margin: 0 12px 14px;
       display: flex;
       align-items: center;
@@ -188,12 +197,14 @@ let Main = styled.main`
       margin: 0 12px 15px;
       display: flex;
       align-items: center;
+      background-color: white;
       font-size: 12px;
       span {
         font-size: 15px;
         font-weight: 500;
         color: #fff;
-        border-radius: 5px;
+        border-radius: 15px;
+        
         display: flex;
         align-items: center;
         width: fit-content;
