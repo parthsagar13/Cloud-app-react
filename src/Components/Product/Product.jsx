@@ -105,8 +105,8 @@ export default function Product() {
     <Main>
   <section id="products">
     {products.slice(0, 4).map(({ img, name, soldBy, sprice, aprice, rating, reviews, id }, index) => (
-      <Link to={`/product/${id}`} key={index}>
-        <div>
+      
+        <div  key={index}>
           <img src={img} alt="" className="main-img" />
           <p className="product-name">{name}</p>
           <p className="price">
@@ -139,7 +139,7 @@ export default function Product() {
             </svg>
           </p>
         </div>
-      </Link>
+    
     ))}
   </section>
 </Main>
