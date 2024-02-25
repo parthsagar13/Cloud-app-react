@@ -22,7 +22,7 @@ export default function Home() {
     <>
       {/* <Slider/>
       <SlliderView/> */}
-          <div style={{ display:"flex", justifyContent:"space-between" , padding:"1rem",}}>
+          <div style={{ display:"flex", justifyContent:"space-between" , padding:"0.5rem 1rem",}}>
             <div style={{display:"flex",flexDirection:'column', gap:'0.3rem'}}>
               <p style={{ fontSize:"1rem" ,marginBottom:'2px'}}>Deals of the day</p>
               <p style={{display:"flex", gap:'0.3rem'}}>
@@ -30,7 +30,7 @@ export default function Home() {
                 15:00</p>
               
             </div>
-            <button style={{ padding:"0.5rem" , backgroundColor:'white',color:"red", fontSize:"1rem" ,borderRadius:"0.5rem" , borderColor:'white'}}>Sale is Live</button>
+            <buttons style={{ padding:"0.5rem" , backgroundColor:'white',color:"red", fontSize:"1rem" ,borderRadius:"0.5rem" , borderColor:'white'}}>Sale is Live</buttons>
           </div>
           <div style={{ display:"flex", justifyContent:"space-around" , backgroundColor:"white", padding:"1rem",}}>
             <img src="https://kalamandir.online/static/media/c2.52cd5e20a74c625da15b.webp" style={{ borderRadius:'50%'}} alt="" />
@@ -75,9 +75,7 @@ export default function Home() {
         <img src={img3} alt="" />
       </div> */}
       <div id="h1-line2">
-        <hr />
-        <h1>Top Products for You!!!</h1>
-        <hr />
+       <div style={{ backgroundColor:"white",width:'100%', padding:"0.8rem", fontWeight:"bold", fontSize:'1rem' }}>Products For You</div>
       </div>
       <section id="products" >
         {products
@@ -91,7 +89,6 @@ export default function Home() {
                 <div key={index} >
                   <img src={img} alt="" className="main-img" />
                   <p className="product-name">{name}</p>
-                  <p className="mkt">Sold By: {soldBy}</p>
                   <p className="price">
                     ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
                     <span className="discount">
@@ -100,11 +97,7 @@ export default function Home() {
                   </p>
 
                   <p className="firstorder">
-                    <img
-                      src="https://www.svgrepo.com/show/250311/percentage-discount.svg"
-                      alt=""
-                    />
-                    ₹{Math.floor(Math.random() * 150)} discount on 1st order
+                   Free delivery
                   </p>
                   <p className="rating">
                     <span
@@ -113,9 +106,10 @@ export default function Home() {
                           rating >= 3.5 ? " #23bb75" : "rgb(244, 182, 25) ",
                       }}
                     >
-                      {rating} <FaStar color="#fff" />
+                      {rating}
+                       <FaStar />
                     </span>{" "}
-                    {reviews} Reviews
+                    ({reviews})
                   </p>
                   <p className="meesho-trust">
                     <svg
