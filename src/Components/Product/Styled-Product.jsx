@@ -25,9 +25,6 @@ let Section = styled.section`
       margin: 12px;
       border-radius: 4px;
       border: 1px solid rgb(206, 206, 206);
-      &:hover {
-        border-color: #f43397;
-      }
     }
   }
   #product-article-2 {
@@ -53,9 +50,6 @@ let Section = styled.section`
         margin: 12px;
         border-radius: 4px;
         border: 1px solid rgb(206, 206, 206);
-        &:hover {
-          border-color: #f43397;
-        }
       }
     }
     button {
@@ -172,10 +166,6 @@ let Section = styled.section`
       padding: 10px;
       font-weight: bold;
       margin-right: 12px;
-      &:hover {
-        background-color: #f43397;
-        color: #fff;
-      }
     }
 
     #details p:nth-of-type(1) {
@@ -214,10 +204,6 @@ let Section = styled.section`
       margin-left: 10px;
       border-radius: 5px;
       font-weight: 500;
-      &:hover {
-        background-color: #f43397;
-        color: #fff;
-      }
     }
     #soldBy span {
       margin: 0 20px;
@@ -251,10 +237,6 @@ let Section = styled.section`
       margin-right: 15px;
       border-radius: 5px;
       font-weight: 500;
-      &:hover {
-        background-color: #f43397;
-        color: #fff;
-      }
     }
     #meesho-logo {
       display: flex;

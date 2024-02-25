@@ -7,7 +7,6 @@ let Nav = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 17px 2.8vw; */
     background-color: white;
     color: #000;
     border-bottom: 1px solid #dfdfdf;
@@ -21,8 +20,7 @@ let Nav = styled.nav`
       border: 1px solid #999;
       flex-grow: 1;
       display: flex;
-      margin: 0 0.5vw 0 1.1vw;
-      padding: 10px 0.9vw;
+      padding: 7px 0.5vw;
       border-radius: 5px;
       position:relative;
 
@@ -62,6 +60,7 @@ let Nav = styled.nav`
           margin: 0 !important;display:block !important;
           svg {
             margin-right: 9px;
+            background-color: white;
           }
 
           span{
@@ -155,10 +154,15 @@ button{
       transform: scaleY(2.5);
       margin: 0 4px;
     }
-
+    #cart  {
+      background-color: white;
+    }
     #cart svg {
-      margin-right: 14px;
+      /* margin-right: 14px;
+      margin-left: 10px;
+      width:1rem; */
       transform: scale(1.3);
+      background-color: white;
     }
     #cart span {
       position: absolute;
@@ -169,7 +173,6 @@ button{
       aspect-ratio: 1.3;
       font-size: 14px;
       color: #fff;
-      background-color: #f43397;
       z-index: 1;
       border-radius: 50%;
       padding-top: 5px;
@@ -273,6 +276,7 @@ let Aside = styled.aside`
   svg {
     margin-bottom: 15px;
     width: 130px;
+    background-color: white;
   }
 
   #profile-pic-modal {

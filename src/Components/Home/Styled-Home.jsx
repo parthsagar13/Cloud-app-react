@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 let Main = styled.main`
-  padding: 50px 3.2vw;
+  padding: 50px 0;
   #homepage {
     display: grid;
     margin: 5px 3.8vw;
@@ -134,10 +134,6 @@ let Main = styled.main`
       padding-bottom: 4px;
       background-color: #f9f9f9;
       transition: 01s cubic-bezier(0.075, 0.82, 0.165, 1);
-      &:hover {
-        transform: scale(1.03);
-        box-shadow: 1px 1px 10px 1px #d0d0d0;
-      }
       .main-img {
         height: 360px;
         width: 100%;

@@ -7,6 +7,12 @@ import { FaStar } from "react-icons/fa";
 import Slider from "./Slider/Slider";
 import SlliderView from "./SliderComponent/SliderComponent";
 
+// images 
+import img1 from "../Home/Images/img1.png";
+import img2 from "../Home/Images/img2.png";
+import img3 from "../Home/Images/img3.png";
+import img4 from "../Home/Images/img4.png";
+
 export default function Home() {
   let products = [...allProducts];
   products.sort(() => Math.random() - 0.5);
@@ -15,6 +21,14 @@ export default function Home() {
     <Main>
       {/* <Slider/>
       <SlliderView/> */}
+
+          <div style={{ display:"flex", justifyContent:"space-around" , backgroundColor:"white", padding:"1rem",margin:"1rem"}}>
+            <img src="https://kalamandir.online/static/media/c2.52cd5e20a74c625da15b.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c1.6892f317534061e0f574.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c2.52cd5e20a74c625da15b.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c1.6892f317534061e0f574.webp" style={{ borderRadius:'50%'}} alt="" />
+            <img src="https://kalamandir.online/static/media/c1.6892f317534061e0f574.webp" style={{ borderRadius:'50%'}} alt="" />
+          </div>
       <section id="homepage">
         <div>
           <h1>Lowest Prices</h1>
@@ -51,7 +65,7 @@ export default function Home() {
         <h1>Top Products for You!!!</h1>
         <hr />
       </div>
-      <section id="products">
+      <section id="products" >
         {products
           .slice(0, 80)
           .map(
@@ -60,11 +74,8 @@ export default function Home() {
               index
             ) => (
               <Link to={`/product/${id}`}>
-                <div key={index}>
+                <div key={index} >
                   <img src={img} alt="" className="main-img" />
-                  <p className="quantity">
-                    + {Math.floor(Math.random() * 7) + 1} More
-                  </p>
                   <p className="product-name">{name}</p>
                   <p className="mkt">Sold By: {soldBy}</p>
                   <p className="price">
