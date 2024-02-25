@@ -62,9 +62,9 @@ export default function Home() {
               <Link to={`/product/${id}`}>
                 <div key={index}>
                   <img src={img} alt="" className="main-img" />
-                  <p className="quantity">
+                  {/* <p className="quantity">
                     + {Math.floor(Math.random() * 7) + 1} More
-                  </p>
+                  </p> */}
                   <p className="product-name">{name}</p>
                   <p className="mkt">Sold By: {soldBy}</p>
                   <p className="price">

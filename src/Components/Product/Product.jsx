@@ -9,6 +9,8 @@ import {
   FaShopify,
   FaAngleRight,
 } from "react-icons/fa";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+
 import { Section } from "./Styled-Product";
 import ratingImg from "./rating.png";
 import "./product.css";
@@ -58,7 +60,7 @@ export default function Product() {
         <img src={image} alt="" id="main-img" />
         {/* <p className="more">+ {Math.floor(Math.random() * 7) + 1} More</p> */}
         <button id={+id} onClick={clcHandler}>
-          <FaShoppingCart /> {state}
+          <MdOutlineKeyboardDoubleArrowRight /> Buy Now
         </button>
         {/* <hr />
         <p>3 Similar products</p>
