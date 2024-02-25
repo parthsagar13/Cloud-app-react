@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 let Main = styled.main`
-  padding: 50px 0;
   #homepage {
     display: grid;
     margin: 5px 3.8vw;
@@ -13,7 +12,7 @@ let Main = styled.main`
     }
 
     div {
-      &:nth-of-type(1) {
+      &:nth-of-type(1d) {
         padding: 50px;
         @media (max-width: 600px) {
           padding: 50px 20px;
