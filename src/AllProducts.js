@@ -221,7 +221,7 @@ let allProducts = [
     id: 6,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: 45,
     img: "https://images.meesho.com/images/products/72562099/1c3qr_512.jpg",
     similar: [
@@ -243,7 +243,7 @@ let allProducts = [
     id: 7,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97453327/gyvok_512.jpg",
     similar: [
@@ -265,7 +265,7 @@ let allProducts = [
     id: 8,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97453482/q8zip_512.jpg",
     similar: [
@@ -287,7 +287,7 @@ let allProducts = [
     id: 9,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97448799/if7ad_512.jpg",
     similar: [
@@ -309,7 +309,7 @@ let allProducts = [
     id: 10,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49932684/uvgg1_512.jpg",
     similar: [
@@ -331,7 +331,7 @@ let allProducts = [
     id: 11,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67148994/lmhpj_512.jpg",
     similar: [
@@ -353,7 +353,7 @@ let allProducts = [
     id: 12,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/30839757/fqcds_512.jpg",
     similar: [
@@ -375,7 +375,7 @@ let allProducts = [
     id: 13,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81215646/xm4pu_512.jpg",
     similar: [
@@ -397,7 +397,7 @@ let allProducts = [
     id: 14,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70189638/agk3t_512.jpg",
     similar: [
@@ -419,7 +419,7 @@ let allProducts = [
     id: 15,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/34035307/txla4_512.jpg",
     similar: [
@@ -441,7 +441,7 @@ let allProducts = [
     id: 16,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/13175971/a710c_512.jpg",
     similar: [
@@ -463,7 +463,7 @@ let allProducts = [
     id: 17,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97447834/7hhry_512.jpg",
     similar: [
@@ -485,7 +485,7 @@ let allProducts = [
     id: 18,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60247644/umnkp_512.jpg",
     similar: [
@@ -507,7 +507,7 @@ let allProducts = [
     id: 19,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49322714/oebxh_512.jpg",
     similar: [
@@ -529,7 +529,7 @@ let allProducts = [
     id: 20,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/48698989/bwhip_512.jpg",
     similar: [
@@ -551,7 +551,7 @@ let allProducts = [
     id: 21,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81911449/zybz0_512.jpg",
     similar: [
@@ -573,7 +573,7 @@ let allProducts = [
     id: 22,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53779093/ujh0x_512.jpg",
     similar: [
@@ -595,7 +595,7 @@ let allProducts = [
     id: 23,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81446505/tmwsr_512.jpg",
     similar: [
@@ -617,7 +617,7 @@ let allProducts = [
     id: 24,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/52253571/gelxd_512.jpg",
     similar: [
@@ -639,7 +639,7 @@ let allProducts = [
     id: 25,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/46306881/8qffp_512.jpg",
     similar: [
@@ -661,7 +661,7 @@ let allProducts = [
     id: 26,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/44401618/ablpe_512.jpg",
     similar: [
@@ -683,7 +683,7 @@ let allProducts = [
     id: 27,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/35758181/9nrty_512.jpg",
     similar: [
@@ -705,7 +705,7 @@ let allProducts = [
     id: 28,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/32753720/li8gk_512.jpg",
     similar: [
@@ -727,7 +727,7 @@ let allProducts = [
     id: 29,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67535883/rlw1p_512.jpg",
     similar: [
@@ -749,7 +749,7 @@ let allProducts = [
     id: 30,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84550725/jpvso_512.jpg",
     similar: [
@@ -771,7 +771,7 @@ let allProducts = [
     id: 31,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49935886/fhyup_512.jpg",
     similar: [
@@ -793,7 +793,7 @@ let allProducts = [
     id: 32,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66385501/ukyer_512.jpg",
     similar: [
@@ -815,7 +815,7 @@ let allProducts = [
     id: 33,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76507419/gbkuw_512.jpg",
     similar: [
@@ -837,7 +837,7 @@ let allProducts = [
     id: 34,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97458221/aoyer_512.jpg",
     similar: [
@@ -859,7 +859,7 @@ let allProducts = [
     id: 35,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97451543/ffd6r_512.jpg",
     similar: [
@@ -881,7 +881,7 @@ let allProducts = [
     id: 36,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97417579/qplox_512.jpg",
     similar: [
@@ -903,7 +903,7 @@ let allProducts = [
     id: 37,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97434427/qmvnb_512.jpg",
     similar: [
@@ -925,7 +925,7 @@ let allProducts = [
     id: 38,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97434412/lesdl_512.jpg",
     similar: [
@@ -947,7 +947,7 @@ let allProducts = [
     id: 39,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97427166/ehnzc_512.jpg",
     similar: [
@@ -969,7 +969,7 @@ let allProducts = [
     id: 40,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59168677/rqqeq_512.jpg",
     similar: [
@@ -991,7 +991,7 @@ let allProducts = [
     id: 41,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97423251/ip3br_512.jpg",
     similar: [
@@ -1013,7 +1013,7 @@ let allProducts = [
     id: 42,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/29306320/20dd8_512.jpg",
     similar: [
@@ -1035,7 +1035,7 @@ let allProducts = [
     id: 43,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60156559/b7rdb_512.jpg",
     similar: [
@@ -1057,7 +1057,7 @@ let allProducts = [
     id: 44,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82142614/cqxvt_512.jpg",
     similar: [
@@ -1079,7 +1079,7 @@ let allProducts = [
     id: 45,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51478065/f436t_512.jpg",
     similar: [
@@ -1101,7 +1101,7 @@ let allProducts = [
     id: 46,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11397330/52a57_512.jpg",
     similar: [
@@ -1123,7 +1123,7 @@ let allProducts = [
     id: 47,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97415569/cwuts_512.jpg",
     similar: [
@@ -1145,7 +1145,7 @@ let allProducts = [
     id: 48,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62215121/dslif_512.jpg",
     similar: [
@@ -1167,7 +1167,7 @@ let allProducts = [
     id: 49,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65420381/ugedl_512.jpg",
     similar: [
@@ -1189,7 +1189,7 @@ let allProducts = [
     id: 50,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65953365/otd97_512.jpg",
     similar: [
@@ -1211,7 +1211,7 @@ let allProducts = [
     id: 51,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83528690/dznjy_512.jpg",
     similar: [
@@ -1233,7 +1233,7 @@ let allProducts = [
     id: 52,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45660991/xfiwl_512.jpg",
     similar: [
@@ -1255,7 +1255,7 @@ let allProducts = [
     id: 53,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/29664520/c108b_512.jpg",
     similar: [
@@ -1277,7 +1277,7 @@ let allProducts = [
     id: 54,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11984978/e8ea4_512.jpg",
     similar: [
@@ -1299,7 +1299,7 @@ let allProducts = [
     id: 55,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97414629/obwsh_512.jpg",
     similar: [
@@ -1321,7 +1321,7 @@ let allProducts = [
     id: 56,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97418391/u0rew_512.jpg",
     similar: [
@@ -1343,7 +1343,7 @@ let allProducts = [
     id: 57,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97411994/i7eoz_512.jpg",
     similar: [
@@ -1365,7 +1365,7 @@ let allProducts = [
     id: 58,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97414360/yglgm_512.jpg",
     similar: [
@@ -1387,7 +1387,7 @@ let allProducts = [
     id: 59,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3711768/1_512.jpg",
     similar: [
@@ -1409,7 +1409,7 @@ let allProducts = [
     id: 60,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70316281/8ery0_512.jpg",
     similar: [
@@ -1431,7 +1431,7 @@ let allProducts = [
     id: 61,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78066875/zxdlu_512.jpg",
     similar: [
@@ -1453,7 +1453,7 @@ let allProducts = [
     id: 62,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69700680/uitba_512.jpg",
     similar: [
@@ -1475,7 +1475,7 @@ let allProducts = [
     id: 63,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/80160071/rxlbf_512.jpg",
     similar: [
@@ -1497,7 +1497,7 @@ let allProducts = [
     id: 64,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54579361/uxmhb_512.jpg",
     similar: [
@@ -1519,7 +1519,7 @@ let allProducts = [
     id: 65,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65407412/xlnei_512.jpg",
     similar: [
@@ -1541,7 +1541,7 @@ let allProducts = [
     id: 66,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53284303/ryl2f_512.jpg",
     similar: [
@@ -1563,7 +1563,7 @@ let allProducts = [
     id: 67,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60302907/ghfco_512.jpg",
     similar: [
@@ -1585,7 +1585,7 @@ let allProducts = [
     id: 68,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6434963/43462_512.jpg",
     similar: [
@@ -1607,7 +1607,7 @@ let allProducts = [
     id: 69,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/46416850/jgbkr_512.jpg",
     similar: [
@@ -1629,7 +1629,7 @@ let allProducts = [
     id: 70,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70351877/pmwzc_512.jpg",
     similar: [
@@ -1651,7 +1651,7 @@ let allProducts = [
     id: 71,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54961918/vcapg_512.jpg",
     similar: [
@@ -1673,7 +1673,7 @@ let allProducts = [
     id: 72,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97093452/qja4t_512.jpg",
     similar: [
@@ -1695,7 +1695,7 @@ let allProducts = [
     id: 73,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27071947/b8d87_512.jpg",
     similar: [
@@ -1717,7 +1717,7 @@ let allProducts = [
     id: 74,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77267791/kc6sr_512.jpg",
     similar: [
@@ -1739,7 +1739,7 @@ let allProducts = [
     id: 75,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68310071/397mx_512.jpg",
     similar: [
@@ -1761,7 +1761,7 @@ let allProducts = [
     id: 76,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/9188995/9eb46_512.jpg",
     similar: [
@@ -1783,7 +1783,7 @@ let allProducts = [
     id: 77,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/37950665/ok3uj_512.jpg",
     similar: [
@@ -1805,7 +1805,7 @@ let allProducts = [
     id: 78,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82202208/r1kup_512.jpg",
     similar: [
@@ -1827,7 +1827,7 @@ let allProducts = [
     id: 79,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97402944/9jqw1_512.jpg",
     similar: [
@@ -1849,7 +1849,7 @@ let allProducts = [
     id: 80,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84912970/w26gh_512.jpg",
     similar: [
@@ -1871,7 +1871,7 @@ let allProducts = [
     id: 81,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66840120/klilc_512.jpg",
     similar: [
@@ -1893,7 +1893,7 @@ let allProducts = [
     id: 82,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82179630/htqde_512.jpg",
     similar: [
@@ -1915,7 +1915,7 @@ let allProducts = [
     id: 83,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82686854/zcxwr_512.jpg",
     similar: [
@@ -1937,7 +1937,7 @@ let allProducts = [
     id: 84,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45636641/nsprg_512.jpg",
     similar: [
@@ -1959,7 +1959,7 @@ let allProducts = [
     id: 85,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60140080/qdfs9_512.jpg",
     similar: [
@@ -1981,7 +1981,7 @@ let allProducts = [
     id: 86,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67240284/pzgug_512.jpg",
     similar: [
@@ -2003,7 +2003,7 @@ let allProducts = [
     id: 87,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16572362/50b98_512.jpg",
     similar: [
@@ -2025,7 +2025,7 @@ let allProducts = [
     id: 88,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49716623/sbami_512.jpg",
     similar: [
@@ -2047,7 +2047,7 @@ let allProducts = [
     id: 89,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61502423/bmbci_512.jpg",
     similar: [
@@ -2069,7 +2069,7 @@ let allProducts = [
     id: 90,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/22264347/5f177_512.jpg",
     similar: [
@@ -2091,7 +2091,7 @@ let allProducts = [
     id: 91,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/94027193/pgttx_512.jpg",
     similar: [
@@ -2113,7 +2113,7 @@ let allProducts = [
     id: 92,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65092382/1o2qt_512.jpg",
     similar: [
@@ -2135,7 +2135,7 @@ let allProducts = [
     id: 93,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76770707/ukxmt_512.jpg",
     similar: [
@@ -2157,7 +2157,7 @@ let allProducts = [
     id: 94,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19108460/6b02d_512.jpg",
     similar: [
@@ -2179,7 +2179,7 @@ let allProducts = [
     id: 95,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74052349/6lsoz_512.jpg",
     similar: [
@@ -2201,7 +2201,7 @@ let allProducts = [
     id: 96,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81120731/fhpkp_512.jpg",
     similar: [
@@ -2223,7 +2223,7 @@ let allProducts = [
     id: 97,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63953931/9clnl_512.jpg",
     similar: [
@@ -2245,7 +2245,7 @@ let allProducts = [
     id: 98,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77259250/cfv3r_512.jpg",
     similar: [
@@ -2267,7 +2267,7 @@ let allProducts = [
     id: 99,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66840120/klilc_512.jpg",
     similar: [
@@ -2289,7 +2289,7 @@ let allProducts = [
     id: 100,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42003414/0wjlf_512.jpg",
     similar: [
@@ -2311,7 +2311,7 @@ let allProducts = [
     id: 101,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/12569934/cf232_512.jpg",
     similar: [
@@ -2333,7 +2333,7 @@ let allProducts = [
     id: 102,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/23409968/52ad1_512.jpg",
     similar: [
@@ -2355,7 +2355,7 @@ let allProducts = [
     id: 103,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72096487/4bq4l_512.jpg",
     similar: [
@@ -2377,7 +2377,7 @@ let allProducts = [
     id: 104,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/12265535/75524_512.jpg",
     similar: [
@@ -2399,7 +2399,7 @@ let allProducts = [
     id: 105,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27074167/e5a96_512.jpg",
     similar: [
@@ -2421,7 +2421,7 @@ let allProducts = [
     id: 106,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71263457/tyx7q_512.jpg",
     similar: [
@@ -2443,7 +2443,7 @@ let allProducts = [
     id: 107,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/48178755/w7mnf_512.jpg",
     similar: [
@@ -2465,7 +2465,7 @@ let allProducts = [
     id: 108,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/40589118/hvt0c_512.jpg",
     similar: [
@@ -2487,7 +2487,7 @@ let allProducts = [
     id: 109,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69391218/bx9h0_512.jpg",
     similar: [
@@ -2509,7 +2509,7 @@ let allProducts = [
     id: 110,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/85000917/xykur_512.jpg",
     similar: [
@@ -2531,7 +2531,7 @@ let allProducts = [
     id: 111,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69455655/29dz4_512.jpg",
     similar: [
@@ -2553,7 +2553,7 @@ let allProducts = [
     id: 112,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8950072/1e896_512.jpg",
     similar: [
@@ -2575,7 +2575,7 @@ let allProducts = [
     id: 113,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61007697/zmdnn_512.jpg",
     similar: [
@@ -2597,7 +2597,7 @@ let allProducts = [
     id: 114,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41988723/kefqc_512.jpg",
     similar: [
@@ -2619,7 +2619,7 @@ let allProducts = [
     id: 115,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61007697/zmdnn_512.jpg",
     similar: [
@@ -2641,7 +2641,7 @@ let allProducts = [
     id: 116,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53387918/aqlhx_512.jpg",
     similar: [
@@ -2663,7 +2663,7 @@ let allProducts = [
     id: 117,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70326491/7r6sw_512.jpg",
     similar: [
@@ -2685,7 +2685,7 @@ let allProducts = [
     id: 118,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83558007/6kdtn_512.jpg",
     similar: [
@@ -2707,7 +2707,7 @@ let allProducts = [
     id: 119,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6035901/f77d8_512.jpg",
     similar: [
@@ -2729,7 +2729,7 @@ let allProducts = [
     id: 120,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66527857/00int_512.jpg",
     similar: [
@@ -2751,7 +2751,7 @@ let allProducts = [
     id: 121,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73770045/gn3r2_512.jpg",
     similar: [
@@ -2773,7 +2773,7 @@ let allProducts = [
     id: 122,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/48783008/tm6sy_512.jpg",
     similar: [
@@ -2795,7 +2795,7 @@ let allProducts = [
     id: 123,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78983793/bfhbf_512.jpg",
     similar: [
@@ -2817,7 +2817,7 @@ let allProducts = [
     id: 124,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74184720/y2nht_512.jpg",
     similar: [
@@ -2839,7 +2839,7 @@ let allProducts = [
     id: 125,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63003745/whiv3_512.jpg",
     similar: [
@@ -2861,7 +2861,7 @@ let allProducts = [
     id: 126,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/15069106/dc18f_512.jpg",
     similar: [
@@ -2883,7 +2883,7 @@ let allProducts = [
     id: 127,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81703113/wy7mi_512.jpg",
     similar: [
@@ -2905,7 +2905,7 @@ let allProducts = [
     id: 128,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6994648/02f4b_512.jpg",
     similar: [
@@ -2927,7 +2927,7 @@ let allProducts = [
     id: 129,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/38526183/ige8l_512.jpg",
     similar: [
@@ -2949,7 +2949,7 @@ let allProducts = [
     id: 130,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41988723/kefqc_512.jpg",
     similar: [
@@ -2971,7 +2971,7 @@ let allProducts = [
     id: 131,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82311479/pecbi_512.jpg",
     similar: [
@@ -2993,7 +2993,7 @@ let allProducts = [
     id: 132,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72743730/xwsn4_512.jpg",
     similar: [
@@ -3015,7 +3015,7 @@ let allProducts = [
     id: 133,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6425170/a39bd_512.jpg",
     similar: [
@@ -3037,7 +3037,7 @@ let allProducts = [
     id: 134,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49606321/ygsup_512.jpg",
     similar: [
@@ -3059,7 +3059,7 @@ let allProducts = [
     id: 135,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/17905111/90663_512.jpg",
     similar: [
@@ -3081,7 +3081,7 @@ let allProducts = [
     id: 136,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16401345/63ef6_512.jpg",
     similar: [
@@ -3103,7 +3103,7 @@ let allProducts = [
     id: 137,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/10757329/4cd88_512.jpg",
     similar: [
@@ -3125,7 +3125,7 @@ let allProducts = [
     id: 138,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/35862892/paloq_512.jpg",
     similar: [
@@ -3147,7 +3147,7 @@ let allProducts = [
     id: 139,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82611379/n9xeu_512.jpg",
     similar: [
@@ -3169,7 +3169,7 @@ let allProducts = [
     id: 140,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/4406271/1_512.jpg",
     similar: [
@@ -3191,7 +3191,7 @@ let allProducts = [
     id: 141,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51675206/xyvpa_512.jpg",
     similar: [
@@ -3213,7 +3213,7 @@ let allProducts = [
     id: 142,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16204526/534a7_512.jpg",
     similar: [
@@ -3235,7 +3235,7 @@ let allProducts = [
     id: 143,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65939620/rlmwg_512.jpg",
     similar: [
@@ -3257,7 +3257,7 @@ let allProducts = [
     id: 144,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47840671/nxxuu_512.jpg",
     similar: [
@@ -3279,7 +3279,7 @@ let allProducts = [
     id: 145,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61606407/dil5z_512.jpg",
     similar: [
@@ -3301,7 +3301,7 @@ let allProducts = [
     id: 146,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6886912/4c117_512.jpg",
     similar: [
@@ -3323,7 +3323,7 @@ let allProducts = [
     id: 147,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/85068858/rhiix_512.jpg",
     similar: [
@@ -3345,7 +3345,7 @@ let allProducts = [
     id: 148,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42256758/fd6p4_512.jpg",
     similar: [
@@ -3367,7 +3367,7 @@ let allProducts = [
     id: 149,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45977032/tbjol_512.jpg",
     similar: [
@@ -3389,7 +3389,7 @@ let allProducts = [
     id: 150,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/48481273/zg9sc_512.jpg",
     similar: [
@@ -3411,7 +3411,7 @@ let allProducts = [
     id: 151,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18957942/c6385_512.jpg",
     similar: [
@@ -3433,7 +3433,7 @@ let allProducts = [
     id: 152,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74198565/o4f8s_512.jpg",
     similar: [
@@ -3455,7 +3455,7 @@ let allProducts = [
     id: 153,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/38149289/eozgu_512.jpg",
     similar: [
@@ -3477,7 +3477,7 @@ let allProducts = [
     id: 154,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41244178/ch86d_512.jpg",
     similar: [
@@ -3499,7 +3499,7 @@ let allProducts = [
     id: 155,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19303116/3dba0_512.jpg",
     similar: [
@@ -3521,7 +3521,7 @@ let allProducts = [
     id: 156,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83712250/tkjvd_512.jpg",
     similar: [
@@ -3543,7 +3543,7 @@ let allProducts = [
     id: 157,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63963792/s55s0_512.jpg",
     similar: [
@@ -3565,7 +3565,7 @@ let allProducts = [
     id: 158,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41244178/ch86d_512.jpg",
     similar: [
@@ -3587,7 +3587,7 @@ let allProducts = [
     id: 159,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/21035908/6bb9e_512.jpg",
     similar: [
@@ -3609,7 +3609,7 @@ let allProducts = [
     id: 160,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66677842/w9edu_512.jpg",
     similar: [
@@ -3631,7 +3631,7 @@ let allProducts = [
     id: 161,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74296211/ayohz_512.jpg",
     similar: [
@@ -3653,7 +3653,7 @@ let allProducts = [
     id: 162,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42109439/p04ls_512.jpg",
     similar: [
@@ -3675,7 +3675,7 @@ let allProducts = [
     id: 163,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/23565042/a1d6f_512.jpg",
     similar: [
@@ -3697,7 +3697,7 @@ let allProducts = [
     id: 164,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41694868/ngdjd_512.jpg",
     similar: [
@@ -3719,7 +3719,7 @@ let allProducts = [
     id: 165,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/87231000/o8mhh_512.jpg",
     similar: [
@@ -3741,7 +3741,7 @@ let allProducts = [
     id: 166,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71072836/vr5hw_512.jpg",
     similar: [
@@ -3763,7 +3763,7 @@ let allProducts = [
     id: 167,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/25422315/8b071_512.jpg",
     similar: [
@@ -3785,7 +3785,7 @@ let allProducts = [
     id: 168,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84265909/aifqu_512.jpg",
     similar: [
@@ -3807,7 +3807,7 @@ let allProducts = [
     id: 169,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68575347/uswx9_512.jpg",
     similar: [
@@ -3829,7 +3829,7 @@ let allProducts = [
     id: 170,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/31916741/acp2b_512.jpg",
     similar: [
@@ -3851,7 +3851,7 @@ let allProducts = [
     id: 171,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/36793304/hvrg8_512.jpg",
     similar: [
@@ -3873,7 +3873,7 @@ let allProducts = [
     id: 172,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/31145560/00776_512.jpg",
     similar: [
@@ -3895,7 +3895,7 @@ let allProducts = [
     id: 173,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16734116/22c37_512.jpg",
     similar: [
@@ -3917,7 +3917,7 @@ let allProducts = [
     id: 174,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/36890051/to5b5_512.jpg",
     similar: [
@@ -3939,7 +3939,7 @@ let allProducts = [
     id: 175,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/33681383/pf1bz_512.jpg",
     similar: [
@@ -3961,7 +3961,7 @@ let allProducts = [
     id: 176,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/37601768/j0zmm_512.jpg",
     similar: [
@@ -3983,7 +3983,7 @@ let allProducts = [
     id: 177,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/36948538/mqdkp_512.jpg",
     similar: [
@@ -4005,7 +4005,7 @@ let allProducts = [
     id: 178,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/17433178/99606_512.jpg",
     similar: [
@@ -4027,7 +4027,7 @@ let allProducts = [
     id: 179,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/17687144/20bf0_512.jpg",
     similar: [
@@ -4049,7 +4049,7 @@ let allProducts = [
     id: 180,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/40669100/jessf_512.jpg",
     similar: [
@@ -4071,7 +4071,7 @@ let allProducts = [
     id: 181,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/64453330/neg3e_512.jpg",
     similar: [
@@ -4093,7 +4093,7 @@ let allProducts = [
     id: 182,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59551142/aj4bv_512.jpg",
     similar: [
@@ -4115,7 +4115,7 @@ let allProducts = [
     id: 183,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76788332/h98pi_512.jpg",
     similar: [
@@ -4137,7 +4137,7 @@ let allProducts = [
     id: 184,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/87922029/0kzxp_512.jpg",
     similar: [
@@ -4159,7 +4159,7 @@ let allProducts = [
     id: 185,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41215167/74wi8_512.jpg",
     similar: [
@@ -4181,7 +4181,7 @@ let allProducts = [
     id: 186,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/43329926/gm5mq_512.jpg",
     similar: [
@@ -4203,7 +4203,7 @@ let allProducts = [
     id: 187,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79503655/sqgp4_512.jpg",
     similar: [
@@ -4225,7 +4225,7 @@ let allProducts = [
     id: 188,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60325032/fxdrb_512.jpg",
     similar: [
@@ -4247,7 +4247,7 @@ let allProducts = [
     id: 189,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/50692904/bvjju_512.jpg",
     similar: [
@@ -4269,7 +4269,7 @@ let allProducts = [
     id: 190,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41531653/mujbo_512.jpg",
     similar: [
@@ -4291,7 +4291,7 @@ let allProducts = [
     id: 191,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71866007/cbpb8_512.jpg",
     similar: [
@@ -4313,7 +4313,7 @@ let allProducts = [
     id: 192,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53464374/wy1o9_512.jpg",
     similar: [
@@ -4335,7 +4335,7 @@ let allProducts = [
     id: 193,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71615140/toiee_512.jpg",
     similar: [
@@ -4357,7 +4357,7 @@ let allProducts = [
     id: 194,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69371749/5myvh_512.jpg",
     similar: [
@@ -4379,7 +4379,7 @@ let allProducts = [
     id: 195,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81033505/nrnvg_512.jpg",
     similar: [
@@ -4401,7 +4401,7 @@ let allProducts = [
     id: 196,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65541214/2zk7z_512.jpg",
     similar: [
@@ -4423,7 +4423,7 @@ let allProducts = [
     id: 197,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8271506/0a8a6_512.jpg",
     similar: [
@@ -4445,7 +4445,7 @@ let allProducts = [
     id: 198,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/23750876/5143a_512.jpg",
     similar: [
@@ -4467,7 +4467,7 @@ let allProducts = [
     id: 199,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78066568/vkvzs_512.jpg",
     similar: [
@@ -4489,7 +4489,7 @@ let allProducts = [
     id: 200,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/5940296/ce587_512.jpg",
     similar: [
@@ -4511,7 +4511,7 @@ let allProducts = [
     id: 201,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/52707380/tdnds_512.jpg",
     similar: [
@@ -4533,7 +4533,7 @@ let allProducts = [
     id: 202,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/24197578/62f13_512.jpg",
     similar: [
@@ -4555,7 +4555,7 @@ let allProducts = [
     id: 203,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/50751650/q4kzk_512.jpg",
     similar: [
@@ -4577,7 +4577,7 @@ let allProducts = [
     id: 204,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45570785/pte1n_512.jpg",
     similar: [
@@ -4599,7 +4599,7 @@ let allProducts = [
     id: 205,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/55140171/1ahyu_512.jpg",
     similar: [
@@ -4621,7 +4621,7 @@ let allProducts = [
     id: 206,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63066702/la8vz_512.jpg",
     similar: [
@@ -4643,7 +4643,7 @@ let allProducts = [
     id: 207,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60164333/4wnxu_512.jpg",
     similar: [
@@ -4665,7 +4665,7 @@ let allProducts = [
     id: 208,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81147138/6qhip_512.jpg",
     similar: [
@@ -4687,7 +4687,7 @@ let allProducts = [
     id: 209,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61871013/ohwdj_512.jpg",
     similar: [
@@ -4709,7 +4709,7 @@ let allProducts = [
     id: 210,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72092492/a5ua6_512.jpg",
     similar: [
@@ -4731,7 +4731,7 @@ let allProducts = [
     id: 211,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78121511/t3o5y_512.jpg",
     similar: [
@@ -4753,7 +4753,7 @@ let allProducts = [
     id: 212,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73599274/tv3bi_512.jpg",
     similar: [
@@ -4775,7 +4775,7 @@ let allProducts = [
     id: 213,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/75848230/pldqe_512.jpg",
     similar: [
@@ -4797,7 +4797,7 @@ let allProducts = [
     id: 214,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49503587/t95re_512.jpg",
     similar: [
@@ -4819,7 +4819,7 @@ let allProducts = [
     id: 215,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/48951598/ygpui_512.jpg",
     similar: [
@@ -4841,7 +4841,7 @@ let allProducts = [
     id: 216,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/57720236/iasim_512.jpg",
     similar: [
@@ -4863,7 +4863,7 @@ let allProducts = [
     id: 217,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/46751670/2gfh6_512.jpg",
     similar: [
@@ -4885,7 +4885,7 @@ let allProducts = [
     id: 218,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62500595/x1e0r_512.jpg",
     similar: [
@@ -4907,7 +4907,7 @@ let allProducts = [
     id: 219,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74099480/ndoba_512.jpg",
     similar: [
@@ -4929,7 +4929,7 @@ let allProducts = [
     id: 220,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62948347/icmbh_512.jpg",
     similar: [
@@ -4951,7 +4951,7 @@ let allProducts = [
     id: 221,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16568427/4603f_512.jpg",
     similar: [
@@ -4973,7 +4973,7 @@ let allProducts = [
     id: 222,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77824407/quyka_512.jpg",
     similar: [
@@ -4995,7 +4995,7 @@ let allProducts = [
     id: 223,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54633756/mpvlw_512.jpg",
     similar: [
@@ -5017,7 +5017,7 @@ let allProducts = [
     id: 224,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/44196633/nmyxz_512.jpg",
     similar: [
@@ -5039,7 +5039,7 @@ let allProducts = [
     id: 225,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67638358/pqcul_512.jpg",
     similar: [
@@ -5061,7 +5061,7 @@ let allProducts = [
     id: 226,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/43075998/aay54_512.jpg",
     similar: [
@@ -5083,7 +5083,7 @@ let allProducts = [
     id: 227,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45872144/ujeq3_512.jpg",
     similar: [
@@ -5105,7 +5105,7 @@ let allProducts = [
     id: 228,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/44226329/rw9an_512.jpg",
     similar: [
@@ -5127,7 +5127,7 @@ let allProducts = [
     id: 229,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54457028/jfyrf_512.jpg",
     similar: [
@@ -5149,7 +5149,7 @@ let allProducts = [
     id: 230,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70469871/c457f_512.jpg",
     similar: [
@@ -5171,7 +5171,7 @@ let allProducts = [
     id: 231,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/75726181/j0ih2_512.jpg",
     similar: [
@@ -5193,7 +5193,7 @@ let allProducts = [
     id: 232,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47239198/hznvp_512.jpg",
     similar: [
@@ -5215,7 +5215,7 @@ let allProducts = [
     id: 233,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/57207699/deqht_512.jpg",
     similar: [
@@ -5237,7 +5237,7 @@ let allProducts = [
     id: 234,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70688148/kboz6_512.jpg",
     similar: [
@@ -5259,7 +5259,7 @@ let allProducts = [
     id: 235,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66296588/fuzmj_512.jpg",
     similar: [
@@ -5281,7 +5281,7 @@ let allProducts = [
     id: 236,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/85249428/mvoya_512.jpg",
     similar: [
@@ -5303,7 +5303,7 @@ let allProducts = [
     id: 237,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70062412/latdw_512.jpg",
     similar: [
@@ -5325,7 +5325,7 @@ let allProducts = [
     id: 238,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83117675/wjxv1_512.jpg",
     similar: [
@@ -5347,7 +5347,7 @@ let allProducts = [
     id: 239,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/86846353/iqb6e_512.jpg",
     similar: [
@@ -5369,7 +5369,7 @@ let allProducts = [
     id: 240,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18825190/3a2d1_512.jpg",
     similar: [
@@ -5391,7 +5391,7 @@ let allProducts = [
     id: 241,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69505698/tdy0a_512.jpg",
     similar: [
@@ -5413,7 +5413,7 @@ let allProducts = [
     id: 242,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59944831/b46tw_512.jpg",
     similar: [
@@ -5435,7 +5435,7 @@ let allProducts = [
     id: 243,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45400600/2mqzk_512.jpg",
     similar: [
@@ -5457,7 +5457,7 @@ let allProducts = [
     id: 244,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70682477/6jicr_512.jpg",
     similar: [
@@ -5479,7 +5479,7 @@ let allProducts = [
     id: 245,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53578166/oftcq_512.jpg",
     similar: [
@@ -5501,7 +5501,7 @@ let allProducts = [
     id: 246,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18141968/ee604_512.jpg",
     similar: [
@@ -5523,7 +5523,7 @@ let allProducts = [
     id: 247,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/86773575/zhook_512.jpg",
     similar: [
@@ -5545,7 +5545,7 @@ let allProducts = [
     id: 248,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/39248637/enefq_512.jpg",
     similar: [
@@ -5567,7 +5567,7 @@ let allProducts = [
     id: 249,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63451223/sameh_512.jpg",
     similar: [
@@ -5589,7 +5589,7 @@ let allProducts = [
     id: 250,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/17419844/e84c0_512.jpg",
     similar: [
@@ -5611,7 +5611,7 @@ let allProducts = [
     id: 251,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/273152/1_512.jpg",
     similar: [
@@ -5633,7 +5633,7 @@ let allProducts = [
     id: 252,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3027555/1_512.jpg",
     similar: [
@@ -5655,7 +5655,7 @@ let allProducts = [
     id: 253,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/14355188/69973_512.jpg",
     similar: [
@@ -5677,7 +5677,7 @@ let allProducts = [
     id: 254,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/1120526/1_512.jpg",
     similar: [
@@ -5699,7 +5699,7 @@ let allProducts = [
     id: 255,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/9180941/f00e3_512.jpg",
     similar: [
@@ -5721,7 +5721,7 @@ let allProducts = [
     id: 256,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/5106629/1_512.jpg",
     similar: [
@@ -5743,7 +5743,7 @@ let allProducts = [
     id: 257,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/1515684/1_512.jpg",
     similar: [
@@ -5765,7 +5765,7 @@ let allProducts = [
     id: 258,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8187585/d7e3f_512.jpg",
     similar: [
@@ -5787,7 +5787,7 @@ let allProducts = [
     id: 259,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7669718/6fa76_512.jpg",
     similar: [
@@ -5809,7 +5809,7 @@ let allProducts = [
     id: 260,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69083701/ct6pn_512.jpg",
     similar: [
@@ -5831,7 +5831,7 @@ let allProducts = [
     id: 261,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51035784/oxcsf_512.jpg",
     similar: [
@@ -5853,7 +5853,7 @@ let allProducts = [
     id: 262,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/26281389/1d410_512.jpg",
     similar: [
@@ -5875,7 +5875,7 @@ let allProducts = [
     id: 263,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/46935384/oteoa_512.jpg",
     similar: [
@@ -5897,7 +5897,7 @@ let allProducts = [
     id: 264,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83840235/arlvf_512.jpg",
     similar: [
@@ -5919,7 +5919,7 @@ let allProducts = [
     id: 265,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/4812913/1_512.jpg",
     similar: [
@@ -5941,7 +5941,7 @@ let allProducts = [
     id: 266,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53439022/ccd0o_512.jpg",
     similar: [
@@ -5963,7 +5963,7 @@ let allProducts = [
     id: 267,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/52255635/k0b9h_512.jpg",
     similar: [
@@ -5985,7 +5985,7 @@ let allProducts = [
     id: 268,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/5858519/1_512.jpg",
     similar: [
@@ -6007,7 +6007,7 @@ let allProducts = [
     id: 269,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3465054/1_512.jpg",
     similar: [
@@ -6029,7 +6029,7 @@ let allProducts = [
     id: 270,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/57734422/cled2_512.jpg",
     similar: [
@@ -6051,7 +6051,7 @@ let allProducts = [
     id: 271,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69640167/olei1_512.jpg",
     similar: [
@@ -6073,7 +6073,7 @@ let allProducts = [
     id: 272,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/13316663/406b5_512.jpg",
     similar: [
@@ -6095,7 +6095,7 @@ let allProducts = [
     id: 273,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/24176924/aae19_512.jpg",
     similar: [
@@ -6117,7 +6117,7 @@ let allProducts = [
     id: 274,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53653908/wmcym_512.jpg",
     similar: [
@@ -6139,7 +6139,7 @@ let allProducts = [
     id: 275,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66508391/h1tlp_512.jpg",
     similar: [
@@ -6161,7 +6161,7 @@ let allProducts = [
     id: 276,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19705075/68d1e_512.jpg",
     similar: [
@@ -6183,7 +6183,7 @@ let allProducts = [
     id: 277,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/25148200/d0d52_512.jpg",
     similar: [
@@ -6205,7 +6205,7 @@ let allProducts = [
     id: 278,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53250454/c3bqt_512.jpg",
     similar: [
@@ -6227,7 +6227,7 @@ let allProducts = [
     id: 279,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41794690/vyrgu_512.jpg",
     similar: [
@@ -6249,7 +6249,7 @@ let allProducts = [
     id: 280,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41518811/3hkdx_512.jpg",
     similar: [
@@ -6271,7 +6271,7 @@ let allProducts = [
     id: 281,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/23405467/e90b7_512.jpg",
     similar: [
@@ -6293,7 +6293,7 @@ let allProducts = [
     id: 282,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/52953933/jdwib_512.jpg",
     similar: [
@@ -6315,7 +6315,7 @@ let allProducts = [
     id: 283,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/34413926/tu9qo_512.jpg",
     similar: [
@@ -6337,7 +6337,7 @@ let allProducts = [
     id: 284,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76859105/lpsei_512.jpg",
     similar: [
@@ -6359,7 +6359,7 @@ let allProducts = [
     id: 285,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/40285621/gbkkt_512.jpg",
     similar: [
@@ -6381,7 +6381,7 @@ let allProducts = [
     id: 286,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51805250/hlrhg_512.jpg",
     similar: [
@@ -6403,7 +6403,7 @@ let allProducts = [
     id: 287,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53569984/oapli_512.jpg",
     similar: [
@@ -6425,7 +6425,7 @@ let allProducts = [
     id: 288,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67198858/gcd7n_512.jpg",
     similar: [
@@ -6447,7 +6447,7 @@ let allProducts = [
     id: 289,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54842041/ukydi_512.jpg",
     similar: [
@@ -6469,7 +6469,7 @@ let allProducts = [
     id: 290,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/52774331/dz6pw_512.jpg",
     similar: [
@@ -6491,7 +6491,7 @@ let allProducts = [
     id: 291,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7337496/f3a89_512.jpg",
     similar: [
@@ -6513,7 +6513,7 @@ let allProducts = [
     id: 292,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77759279/lickm_512.jpg",
     similar: [
@@ -6535,7 +6535,7 @@ let allProducts = [
     id: 293,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/14779484/fe552_512.jpg",
     similar: [
@@ -6557,7 +6557,7 @@ let allProducts = [
     id: 294,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/20926286/793b4_512.jpg",
     similar: [
@@ -6579,7 +6579,7 @@ let allProducts = [
     id: 295,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83864231/a5vaz_512.jpg",
     similar: [
@@ -6601,7 +6601,7 @@ let allProducts = [
     id: 296,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78896033/kyyro_512.jpg",
     similar: [
@@ -6623,7 +6623,7 @@ let allProducts = [
     id: 297,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71955571/nlmre_512.jpg",
     similar: [
@@ -6645,7 +6645,7 @@ let allProducts = [
     id: 298,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69763861/7wmjv_512.jpg",
     similar: [
@@ -6667,7 +6667,7 @@ let allProducts = [
     id: 299,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/2889071/1_512.jpg",
     similar: [
@@ -6689,7 +6689,7 @@ let allProducts = [
     id: 300,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19679038/30ebe_512.jpg",
     similar: [
@@ -6711,7 +6711,7 @@ let allProducts = [
     id: 301,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84927479/quvyj_512.jpg",
     similar: [
@@ -6733,7 +6733,7 @@ let allProducts = [
     id: 302,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73001810/sf9ku_512.jpg",
     similar: [
@@ -6755,7 +6755,7 @@ let allProducts = [
     id: 303,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/44770225/vydao_512.jpg",
     similar: [
@@ -6777,7 +6777,7 @@ let allProducts = [
     id: 304,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19580156/dd1c2_512.jpg",
     similar: [
@@ -6799,7 +6799,7 @@ let allProducts = [
     id: 305,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72221112/hssc5_512.jpg",
     similar: [
@@ -6821,7 +6821,7 @@ let allProducts = [
     id: 306,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84209710/uuqul_512.jpg",
     similar: [
@@ -6843,7 +6843,7 @@ let allProducts = [
     id: 307,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/1092148/1_512.jpg",
     similar: [
@@ -6865,7 +6865,7 @@ let allProducts = [
     id: 308,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60830468/pyk2m_512.jpg",
     similar: [
@@ -6887,7 +6887,7 @@ let allProducts = [
     id: 309,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/40155409/dedje_512.jpg",
     similar: [
@@ -6909,7 +6909,7 @@ let allProducts = [
     id: 310,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/55080609/v0xms_512.jpg",
     similar: [
@@ -6931,7 +6931,7 @@ let allProducts = [
     id: 311,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41012172/hcn8r_512.jpg",
     similar: [
@@ -6953,7 +6953,7 @@ let allProducts = [
     id: 312,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8333002/fd993_512.jpg",
     similar: [
@@ -6975,7 +6975,7 @@ let allProducts = [
     id: 313,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16850436/8c926_512.jpg",
     similar: [
@@ -6997,7 +6997,7 @@ let allProducts = [
     id: 314,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60895280/yugct_512.jpg",
     similar: [
@@ -7019,7 +7019,7 @@ let allProducts = [
     id: 315,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7281192/35cdb_512.jpg",
     similar: [
@@ -7041,7 +7041,7 @@ let allProducts = [
     id: 316,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/5592673/1_512.jpg",
     similar: [
@@ -7063,7 +7063,7 @@ let allProducts = [
     id: 317,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/29171188/daqsh_512.jpg",
     similar: [
@@ -7085,7 +7085,7 @@ let allProducts = [
     id: 318,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42064149/zqetm_512.jpg",
     similar: [
@@ -7107,7 +7107,7 @@ let allProducts = [
     id: 319,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8496318/b4fb3_512.jpg",
     similar: [
@@ -7129,7 +7129,7 @@ let allProducts = [
     id: 320,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74524852/qvla5_512.jpg",
     similar: [
@@ -7151,7 +7151,7 @@ let allProducts = [
     id: 321,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/38633913/7bn2m_512.jpg",
     similar: [
@@ -7174,7 +7174,7 @@ let allProducts = [
     id: 322,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/25617349/ab9a5_512.jpg",
     similar: [
@@ -7197,7 +7197,7 @@ let allProducts = [
     id: 323,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41511105/585a5_512.jpg",
     similar: [
@@ -7220,7 +7220,7 @@ let allProducts = [
     id: 324,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73717030/m0usv_512.jpg",
     similar: [
@@ -7243,7 +7243,7 @@ let allProducts = [
     id: 325,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63670000/gvdgc_512.jpg",
     similar: [
@@ -7266,7 +7266,7 @@ let allProducts = [
     id: 326,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49192301/pj1ld_512.jpg",
     similar: [
@@ -7289,7 +7289,7 @@ let allProducts = [
     id: 327,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71036502/lwzb7_512.jpg",
     similar: [
@@ -7312,7 +7312,7 @@ let allProducts = [
     id: 328,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71618619/fmajd_512.jpg",
     similar: [
@@ -7335,7 +7335,7 @@ let allProducts = [
     id: 329,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/13943896/9da72_512.jpg",
     similar: [
@@ -7358,7 +7358,7 @@ let allProducts = [
     id: 330,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45716672/rr9nl_512.jpg",
     similar: [
@@ -7381,7 +7381,7 @@ let allProducts = [
     id: 331,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/12069047/b340a_512.jpg",
     similar: [
@@ -7404,7 +7404,7 @@ let allProducts = [
     id: 332,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11603943/b2750_512.jpg",
     similar: [
@@ -7427,7 +7427,7 @@ let allProducts = [
     id: 333,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78525093/d4qvc_512.jpg",
     similar: [
@@ -7450,7 +7450,7 @@ let allProducts = [
     id: 334,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/44941497/s4lmh_512.jpg",
     similar: [
@@ -7473,7 +7473,7 @@ let allProducts = [
     id: 335,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78212933/nvqza_512.jpg",
     similar: [
@@ -7496,7 +7496,7 @@ let allProducts = [
     id: 336,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/13878663/a85e2_512.jpg",
     similar: [
@@ -7519,7 +7519,7 @@ let allProducts = [
     id: 337,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68606319/d3nxs_512.jpg",
     similar: [
@@ -7542,7 +7542,7 @@ let allProducts = [
     id: 338,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7916887/e606f_512.jpg",
     similar: [
@@ -7565,7 +7565,7 @@ let allProducts = [
     id: 339,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54742308/q1thi_512.jpg",
     similar: [
@@ -7588,7 +7588,7 @@ let allProducts = [
     id: 340,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/10419631/ounxq_512.jpg",
     similar: [
@@ -7611,7 +7611,7 @@ let allProducts = [
     id: 341,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/64215169/siwls_512.jpg",
     similar: [
@@ -7634,7 +7634,7 @@ let allProducts = [
     id: 342,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62494759/zhckl_512.jpg",
     similar: [
@@ -7657,7 +7657,7 @@ let allProducts = [
     id: 343,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/15856786/78fbe_512.jpg",
     similar: [
@@ -7680,7 +7680,7 @@ let allProducts = [
     id: 344,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54672670/pqhj3_512.jpg",
     similar: [
@@ -7703,7 +7703,7 @@ let allProducts = [
     id: 345,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/64306440/4yypa_512.jpg",
     similar: [
@@ -7726,7 +7726,7 @@ let allProducts = [
     id: 346,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67556388/sktlk_512.jpg",
     similar: [
@@ -7749,7 +7749,7 @@ let allProducts = [
     id: 347,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/10700714/d3djj_512.jpg",
     similar: [
@@ -7772,7 +7772,7 @@ let allProducts = [
     id: 348,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66790041/vpw5g_512.jpg",
     similar: [
@@ -7795,7 +7795,7 @@ let allProducts = [
     id: 349,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62276263/fmigv_512.jpg",
     similar: [
@@ -7818,7 +7818,7 @@ let allProducts = [
     id: 350,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82508853/ncgvl_512.jpg",
     similar: [
@@ -7841,7 +7841,7 @@ let allProducts = [
     id: 351,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79829053/wxcyc_512.jpg",
     similar: [
@@ -7864,7 +7864,7 @@ let allProducts = [
     id: 352,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63433631/nbom2_512.jpg",
     similar: [
@@ -7887,7 +7887,7 @@ let allProducts = [
     id: 353,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7040083/65038_512.jpg",
     similar: [
@@ -7910,7 +7910,7 @@ let allProducts = [
     id: 354,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/88346563/a236g_512.jpg",
     similar: [
@@ -7933,7 +7933,7 @@ let allProducts = [
     id: 355,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/13860449/87e2a_512.jpg",
     similar: [
@@ -7956,7 +7956,7 @@ let allProducts = [
     id: 356,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/15092809/f8bd6_512.jpg",
     similar: [
@@ -7979,7 +7979,7 @@ let allProducts = [
     id: 357,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49408011/n4mls_512.jpg",
     similar: [
@@ -8002,7 +8002,7 @@ let allProducts = [
     id: 358,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70683245/h6tg1_512.jpg",
     similar: [
@@ -8025,7 +8025,7 @@ let allProducts = [
     id: 359,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/86171173/83hoz_512.jpg",
     similar: [
@@ -8048,7 +8048,7 @@ let allProducts = [
     id: 360,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/17971464/0f80f_512.jpg",
     similar: [
@@ -8071,7 +8071,7 @@ let allProducts = [
     id: 361,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41806317/neugn_512.jpg",
     similar: [
@@ -8094,7 +8094,7 @@ let allProducts = [
     id: 362,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65230401/6s9wa_512.jpg",
     similar: [
@@ -8117,7 +8117,7 @@ let allProducts = [
     id: 363,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71070704/izrpw_512.jpg",
     similar: [
@@ -8140,7 +8140,7 @@ let allProducts = [
     id: 364,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/20506332/4b871_512.jpg",
     similar: [
@@ -8163,7 +8163,7 @@ let allProducts = [
     id: 365,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/28122748/y6vzy_512.jpg",
     similar: [
@@ -8186,7 +8186,7 @@ let allProducts = [
     id: 366,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27088179/fb91c_512.jpg",
     similar: [
@@ -8209,7 +8209,7 @@ let allProducts = [
     id: 367,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/10278011/89157_512.jpg",
     similar: [
@@ -8232,7 +8232,7 @@ let allProducts = [
     id: 368,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/25992878/4f8e4_512.jpg",
     similar: [
@@ -8255,7 +8255,7 @@ let allProducts = [
     id: 369,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/9827403/51595_512.jpg",
     similar: [
@@ -8278,7 +8278,7 @@ let allProducts = [
     id: 370,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76136622/tygbm_512.jpg",
     similar: [
@@ -8301,7 +8301,7 @@ let allProducts = [
     id: 371,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6319629/f4b47_512.jpg",
     similar: [
@@ -8324,7 +8324,7 @@ let allProducts = [
     id: 372,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7053533/8c38b_512.jpg",
     similar: [
@@ -8347,7 +8347,7 @@ let allProducts = [
     id: 373,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27289173/69120_512.jpg",
     similar: [
@@ -8370,7 +8370,7 @@ let allProducts = [
     id: 374,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6872399/fbc59_512.jpg",
     similar: [
@@ -8393,7 +8393,7 @@ let allProducts = [
     id: 375,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8100153/57db2_512.jpg",
     similar: [
@@ -8416,7 +8416,7 @@ let allProducts = [
     id: 376,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8102162/bd746_512.jpg",
     similar: [
@@ -8439,7 +8439,7 @@ let allProducts = [
     id: 377,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6416745/3a68d_512.jpg",
     similar: [
@@ -8462,7 +8462,7 @@ let allProducts = [
     id: 378,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/40641399/zyxij_512.jpg",
     similar: [
@@ -8485,7 +8485,7 @@ let allProducts = [
     id: 379,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6252594/f67e0_512.jpg",
     similar: [
@@ -8508,7 +8508,7 @@ let allProducts = [
     id: 380,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68950117/necd9_512.jpg",
     similar: [
@@ -8531,7 +8531,7 @@ let allProducts = [
     id: 381,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76948251/ptzul_512.jpg",
     similar: [
@@ -8554,7 +8554,7 @@ let allProducts = [
     id: 382,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72354759/hnela_512.jpg",
     similar: [
@@ -8577,7 +8577,7 @@ let allProducts = [
     id: 383,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78856635/mxfhp_512.jpg",
     similar: [
@@ -8600,7 +8600,7 @@ let allProducts = [
     id: 384,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65469701/yovot_512.jpg",
     similar: [
@@ -8623,7 +8623,7 @@ let allProducts = [
     id: 385,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/43539137/epaqu_512.jpg",
     similar: [
@@ -8646,7 +8646,7 @@ let allProducts = [
     id: 386,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82657021/ubnj9_512.jpg",
     similar: [
@@ -8669,7 +8669,7 @@ let allProducts = [
     id: 387,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79099455/nsur0_512.jpg",
     similar: [
@@ -8692,7 +8692,7 @@ let allProducts = [
     id: 388,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77863641/muisy_512.jpg",
     similar: [
@@ -8715,7 +8715,7 @@ let allProducts = [
     id: 389,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/43191992/odvxe_512.jpg",
     similar: [
@@ -8738,7 +8738,7 @@ let allProducts = [
     id: 390,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62062070/jnmzn_512.jpg",
     similar: [
@@ -8761,7 +8761,7 @@ let allProducts = [
     id: 391,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/75362149/5rjrg_512.jpg",
     similar: [
@@ -8784,7 +8784,7 @@ let allProducts = [
     id: 392,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61142371/khrp5_512.jpg",
     similar: [
@@ -8807,7 +8807,7 @@ let allProducts = [
     id: 393,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/93532057/8kvro_512.jpg",
     similar: [
@@ -8830,7 +8830,7 @@ let allProducts = [
     id: 394,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78056277/nie78_512.jpg",
     similar: [
@@ -8853,7 +8853,7 @@ let allProducts = [
     id: 395,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82516405/mmqgw_512.jpg",
     similar: [
@@ -8876,7 +8876,7 @@ let allProducts = [
     id: 396,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83292008/uvcf8_512.jpg",
     similar: [
@@ -8899,7 +8899,7 @@ let allProducts = [
     id: 397,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/57723624/dc8r5_512.jpg",
     similar: [
@@ -8922,7 +8922,7 @@ let allProducts = [
     id: 398,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59953982/2qkgg_512.jpg",
     similar: [
@@ -8945,7 +8945,7 @@ let allProducts = [
     id: 399,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/97182992/12qzg_512.jpg",
     similar: [
@@ -8968,7 +8968,7 @@ let allProducts = [
     id: 400,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/89023469/zzokd_512.jpg",
     similar: [
@@ -8991,7 +8991,7 @@ let allProducts = [
     id: 401,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63915652/9xghj_512.jpg",
     similar: [
@@ -9014,7 +9014,7 @@ let allProducts = [
     id: 402,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76822834/gl9on_512.jpg",
     similar: [
@@ -9037,7 +9037,7 @@ let allProducts = [
     id: 403,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/44493980/yj9i9_512.jpg",
     similar: [
@@ -9060,7 +9060,7 @@ let allProducts = [
     id: 404,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62465648/qbvva_512.jpg",
     similar: [
@@ -9083,7 +9083,7 @@ let allProducts = [
     id: 405,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59186688/raznh_512.jpg",
     similar: [
@@ -9106,7 +9106,7 @@ let allProducts = [
     id: 406,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/52636931/ucqiw_512.jpg",
     similar: [
@@ -9129,7 +9129,7 @@ let allProducts = [
     id: 407,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76776685/ivafz_512.jpg",
     similar: [
@@ -9152,7 +9152,7 @@ let allProducts = [
     id: 408,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/56952733/kooir_512.jpg",
     similar: [
@@ -9175,7 +9175,7 @@ let allProducts = [
     id: 409,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53145740/96ons_512.jpg",
     similar: [
@@ -9198,7 +9198,7 @@ let allProducts = [
     id: 410,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67234387/ahklw_512.jpg",
     similar: [
@@ -9221,7 +9221,7 @@ let allProducts = [
     id: 411,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/21376792/4b1f9_512.jpg",
     similar: [
@@ -9244,7 +9244,7 @@ let allProducts = [
     id: 412,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45279915/14j0w_512.jpg",
     similar: [
@@ -9267,7 +9267,7 @@ let allProducts = [
     id: 413,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74405009/j3p2h_512.jpg",
     similar: [
@@ -9290,7 +9290,7 @@ let allProducts = [
     id: 414,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59664217/ap1rp_512.jpg",
     similar: [
@@ -9313,7 +9313,7 @@ let allProducts = [
     id: 415,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/35577745/vcdry_512.jpg",
     similar: [
@@ -9336,7 +9336,7 @@ let allProducts = [
     id: 416,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71372746/9abiu_512.jpg",
     similar: [
@@ -9359,7 +9359,7 @@ let allProducts = [
     id: 417,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78960236/wbs5w_512.jpg",
     similar: [
@@ -9382,7 +9382,7 @@ let allProducts = [
     id: 418,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47375813/tw1v8_512.jpg",
     similar: [
@@ -9405,7 +9405,7 @@ let allProducts = [
     id: 419,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/43718088/ueocn_512.jpg",
     similar: [
@@ -9428,7 +9428,7 @@ let allProducts = [
     id: 420,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51979700/08kcw_512.jpg",
     similar: [
@@ -9451,7 +9451,7 @@ let allProducts = [
     id: 421,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76188016/ir0pt_512.jpg",
     similar: [
@@ -9474,7 +9474,7 @@ let allProducts = [
     id: 422,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/56335077/vfxjg_512.jpg",
     similar: [
@@ -9497,7 +9497,7 @@ let allProducts = [
     id: 423,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70449546/ukmzt_512.jpg",
     similar: [
@@ -9520,7 +9520,7 @@ let allProducts = [
     id: 424,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68451027/jkwoo_512.jpg",
     similar: [
@@ -9543,7 +9543,7 @@ let allProducts = [
     id: 425,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68449827/hym3i_512.jpg",
     similar: [
@@ -9566,7 +9566,7 @@ let allProducts = [
     id: 426,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72067809/hwz8f_512.jpg",
     similar: [
@@ -9589,7 +9589,7 @@ let allProducts = [
     id: 427,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/90552278/vo6kb_512.jpg",
     similar: [
@@ -9612,7 +9612,7 @@ let allProducts = [
     id: 428,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/85898688/p5ngj_512.jpg",
     similar: [
@@ -9635,7 +9635,7 @@ let allProducts = [
     id: 429,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54105907/5nakw_512.jpg",
     similar: [
@@ -9658,7 +9658,7 @@ let allProducts = [
     id: 430,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/75730825/kdbh6_512.jpg",
     similar: [
@@ -9681,7 +9681,7 @@ let allProducts = [
     id: 431,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69778164/6i2yt_512.jpg",
     similar: [
@@ -9704,7 +9704,7 @@ let allProducts = [
     id: 432,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83294262/jsbe0_512.jpg",
     similar: [
@@ -9727,7 +9727,7 @@ let allProducts = [
     id: 433,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74412446/iy0a9_512.jpg",
     similar: [
@@ -9750,7 +9750,7 @@ let allProducts = [
     id: 434,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72992008/c0pnn_512.jpg",
     similar: [
@@ -9773,7 +9773,7 @@ let allProducts = [
     id: 435,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60126745/tiaas_512.jpg",
     similar: [
@@ -9796,7 +9796,7 @@ let allProducts = [
     id: 436,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/53160340/8w55a_512.jpg",
     similar: [
@@ -9819,7 +9819,7 @@ let allProducts = [
     id: 437,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77077323/q4har_512.jpg",
     similar: [
@@ -9842,7 +9842,7 @@ let allProducts = [
     id: 438,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54238573/ygnyu_512.jpg",
     similar: [
@@ -9865,7 +9865,7 @@ let allProducts = [
     id: 439,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47397209/kgff8_512.jpg",
     similar: [
@@ -9888,7 +9888,7 @@ let allProducts = [
     id: 440,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82950325/byizk_512.jpg",
     similar: [
@@ -9911,7 +9911,7 @@ let allProducts = [
     id: 441,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/31539468/3lie4_512.jpg",
     similar: [
@@ -9934,7 +9934,7 @@ let allProducts = [
     id: 442,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/50989091/el8kv_512.jpg",
     similar: [
@@ -9957,7 +9957,7 @@ let allProducts = [
     id: 443,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/88994400/iwcbd_512.jpg",
     similar: [
@@ -9980,7 +9980,7 @@ let allProducts = [
     id: 444,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/48655157/uqkom_512.jpg",
     similar: [
@@ -10003,7 +10003,7 @@ let allProducts = [
     id: 445,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/48435039/mieln_512.jpg",
     similar: [
@@ -10026,7 +10026,7 @@ let allProducts = [
     id: 446,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77433080/gp0u1_512.jpg",
     similar: [
@@ -10049,7 +10049,7 @@ let allProducts = [
     id: 447,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/36072753/ajwjg_512.jpg",
     similar: [
@@ -10072,7 +10072,7 @@ let allProducts = [
     id: 448,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16765508/18424_512.jpg",
     similar: [
@@ -10095,7 +10095,7 @@ let allProducts = [
     id: 449,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8480418/fec93_512.jpg",
     similar: [
@@ -10118,7 +10118,7 @@ let allProducts = [
     id: 450,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/50423487/dl2hr_512.jpg",
     similar: [
@@ -10141,7 +10141,7 @@ let allProducts = [
     id: 451,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11475375/f5cf0_512.jpg",
     similar: [
@@ -10164,7 +10164,7 @@ let allProducts = [
     id: 452,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/91668734/ncvsa_512.jpg",
     similar: [
@@ -10187,7 +10187,7 @@ let allProducts = [
     id: 453,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/86508804/5zfqq_512.jpg",
     similar: [
@@ -10210,7 +10210,7 @@ let allProducts = [
     id: 454,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/92027352/gwcrc_512.jpg",
     similar: [
@@ -10233,7 +10233,7 @@ let allProducts = [
     id: 455,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/14041918/3a8f5_512.jpg",
     similar: [
@@ -10256,7 +10256,7 @@ let allProducts = [
     id: 456,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/89656264/lh5ot_512.jpg",
     similar: [
@@ -10279,7 +10279,7 @@ let allProducts = [
     id: 457,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/80527823/tobhj_512.jpg",
     similar: [
@@ -10302,7 +10302,7 @@ let allProducts = [
     id: 458,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/91928960/hlxal_512.jpg",
     similar: [
@@ -10325,7 +10325,7 @@ let allProducts = [
     id: 459,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71761543/rn7gl_512.jpg",
     similar: [
@@ -10348,7 +10348,7 @@ let allProducts = [
     id: 460,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41624458/p9t2s_512.jpg",
     similar: [
@@ -10371,7 +10371,7 @@ let allProducts = [
     id: 461,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67940824/kztji_512.jpg",
     similar: [
@@ -10394,7 +10394,7 @@ let allProducts = [
     id: 462,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81028223/nxjyy_512.jpg",
     similar: [
@@ -10417,7 +10417,7 @@ let allProducts = [
     id: 463,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19017433/sofxj_512.jpg",
     similar: [
@@ -10440,7 +10440,7 @@ let allProducts = [
     id: 464,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71498820/49krb_512.jpg",
     similar: [
@@ -10463,7 +10463,7 @@ let allProducts = [
     id: 465,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/24772573/2fa5a_512.jpg",
     similar: [
@@ -10486,7 +10486,7 @@ let allProducts = [
     id: 466,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77061992/l9erm_512.jpg",
     similar: [
@@ -10509,7 +10509,7 @@ let allProducts = [
     id: 467,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61389046/xaiyg_512.jpg",
     similar: [
@@ -10532,7 +10532,7 @@ let allProducts = [
     id: 468,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/50169864/l5gbb_512.jpg",
     similar: [
@@ -10555,7 +10555,7 @@ let allProducts = [
     id: 469,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41167052/pi73m_512.jpg",
     similar: [
@@ -10578,7 +10578,7 @@ let allProducts = [
     id: 470,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83316275/uaxkz_512.jpg",
     similar: [
@@ -10601,7 +10601,7 @@ let allProducts = [
     id: 471,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84845567/mp2w9_512.jpg",
     similar: [
@@ -10624,7 +10624,7 @@ let allProducts = [
     id: 472,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/50326993/nxmhm_512.jpg",
     similar: [
@@ -10647,7 +10647,7 @@ let allProducts = [
     id: 473,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/41614446/p9yrw_512.jpg",
     similar: [
@@ -10670,7 +10670,7 @@ let allProducts = [
     id: 474,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68210893/3asg2_512.jpg",
     similar: [
@@ -10693,7 +10693,7 @@ let allProducts = [
     id: 475,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/80783584/rjn8c_512.jpg",
     similar: [
@@ -10716,7 +10716,7 @@ let allProducts = [
     id: 476,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74761899/jxdgs_512.jpg",
     similar: [
@@ -10739,7 +10739,7 @@ let allProducts = [
     id: 477,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/23920358/698f8_512.jpg",
     similar: [
@@ -10762,7 +10762,7 @@ let allProducts = [
     id: 478,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42586130/du5ve_512.jpg",
     similar: [
@@ -10785,7 +10785,7 @@ let allProducts = [
     id: 479,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42336772/oqu2n_512.jpg",
     similar: [
@@ -10808,7 +10808,7 @@ let allProducts = [
     id: 480,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71575537/4oljg_512.jpg",
     similar: [
@@ -10831,7 +10831,7 @@ let allProducts = [
     id: 481,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7563763/fd23f_512.jpg",
     similar: [
@@ -10853,7 +10853,7 @@ let allProducts = [
     id: 482,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19207051/d016a_512.jpg",
     similar: [
@@ -10875,7 +10875,7 @@ let allProducts = [
     id: 483,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/25793351/e5a2e_512.jpg",
     similar: [
@@ -10897,7 +10897,7 @@ let allProducts = [
     id: 484,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27478224/63c88_512.jpg",
     similar: [
@@ -10919,7 +10919,7 @@ let allProducts = [
     id: 485,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6733167/3ed76_512.jpg",
     similar: [
@@ -10941,7 +10941,7 @@ let allProducts = [
     id: 486,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11316637/8dfe5_512.jpg",
     similar: [
@@ -10963,7 +10963,7 @@ let allProducts = [
     id: 487,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6438455/d5979_512.jpg",
     similar: [
@@ -10985,7 +10985,7 @@ let allProducts = [
     id: 488,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/23475811/33d19_512.jpg",
     similar: [
@@ -11007,7 +11007,7 @@ let allProducts = [
     id: 489,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/24395563/7964a_512.jpg",
     similar: [
@@ -11029,7 +11029,7 @@ let allProducts = [
     id: 490,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16434105/78bfe_512.jpg",
     similar: [
@@ -11051,7 +11051,7 @@ let allProducts = [
     id: 491,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/4967612/1_512.jpg",
     similar: [
@@ -11073,7 +11073,7 @@ let allProducts = [
     id: 492,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/917643/1_512.jpg",
     similar: [
@@ -11095,7 +11095,7 @@ let allProducts = [
     id: 493,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/21043300/4a5bc_512.jpg",
     similar: [
@@ -11117,7 +11117,7 @@ let allProducts = [
     id: 494,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11009634/9096c_512.jpg",
     similar: [
@@ -11139,7 +11139,7 @@ let allProducts = [
     id: 495,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72817099/r3dtt_512.jpg",
     similar: [
@@ -11161,7 +11161,7 @@ let allProducts = [
     id: 496,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/80262251/bnykm_512.jpg",
     similar: [
@@ -11183,7 +11183,7 @@ let allProducts = [
     id: 497,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61490467/wpbde_512.jpg",
     similar: [
@@ -11205,7 +11205,7 @@ let allProducts = [
     id: 498,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3256262/1_512.jpg",
     similar: [
@@ -11227,7 +11227,7 @@ let allProducts = [
     id: 499,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11738439/babbf_512.jpg",
     similar: [
@@ -11249,7 +11249,7 @@ let allProducts = [
     id: 500,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61840734/mjhmw_512.jpg",
     similar: [
@@ -11271,7 +11271,7 @@ let allProducts = [
     id: 501,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/85212787/kp5b7_512.jpg",
     similar: [
@@ -11293,7 +11293,7 @@ let allProducts = [
     id: 502,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3670565/1_512.jpg",
     similar: [
@@ -11315,7 +11315,7 @@ let allProducts = [
     id: 503,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19019877/8660e_512.jpg",
     similar: [
@@ -11337,7 +11337,7 @@ let allProducts = [
     id: 504,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77716213/u00y9_512.jpg",
     similar: [
@@ -11359,7 +11359,7 @@ let allProducts = [
     id: 505,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/26099887/28f3c_512.jpg",
     similar: [
@@ -11381,7 +11381,7 @@ let allProducts = [
     id: 506,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65260786/8ksqh_512.jpg",
     similar: [
@@ -11403,7 +11403,7 @@ let allProducts = [
     id: 507,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/34107665/he0hd_512.jpg",
     similar: [
@@ -11425,7 +11425,7 @@ let allProducts = [
     id: 508,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62447710/vdtem_512.jpg",
     similar: [
@@ -11447,7 +11447,7 @@ let allProducts = [
     id: 509,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76373035/kscem_512.jpg",
     similar: [
@@ -11469,7 +11469,7 @@ let allProducts = [
     id: 510,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70816563/zl3ss_512.jpg",
     similar: [
@@ -11491,7 +11491,7 @@ let allProducts = [
     id: 511,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/9518100/29a78_512.jpg",
     similar: [
@@ -11513,7 +11513,7 @@ let allProducts = [
     id: 512,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61367311/yizin_512.jpg",
     similar: [
@@ -11535,7 +11535,7 @@ let allProducts = [
     id: 513,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7696160/2d22a_512.jpg",
     similar: [
@@ -11557,7 +11557,7 @@ let allProducts = [
     id: 514,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/491911/1_512.jpg",
     similar: [
@@ -11579,7 +11579,7 @@ let allProducts = [
     id: 515,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/2454305/1_512.jpg",
     similar: [
@@ -11601,7 +11601,7 @@ let allProducts = [
     id: 516,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7767675/83835_512.jpg",
     similar: [
@@ -11623,7 +11623,7 @@ let allProducts = [
     id: 517,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/33124268/pwq82_512.jpg",
     similar: [
@@ -11645,7 +11645,7 @@ let allProducts = [
     id: 518,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/623347/1_512.jpg",
     similar: [
@@ -11667,7 +11667,7 @@ let allProducts = [
     id: 519,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16051545/df611_512.jpg",
     similar: [
@@ -11689,7 +11689,7 @@ let allProducts = [
     id: 520,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/12793714/6352f_512.jpg",
     similar: [
@@ -11711,7 +11711,7 @@ let allProducts = [
     id: 521,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11789285/82890_512.jpg",
     similar: [
@@ -11733,7 +11733,7 @@ let allProducts = [
     id: 522,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7541956/e93ce_512.jpg",
     similar: [
@@ -11755,7 +11755,7 @@ let allProducts = [
     id: 523,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81647522/k7vew_512.jpg",
     similar: [
@@ -11777,7 +11777,7 @@ let allProducts = [
     id: 524,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/87836463/5cooo_512.jpg",
     similar: [
@@ -11799,7 +11799,7 @@ let allProducts = [
     id: 525,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/19003361/fc08d_512.jpg",
     similar: [
@@ -11821,7 +11821,7 @@ let allProducts = [
     id: 526,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/24048385/42044_512.jpg",
     similar: [
@@ -11843,7 +11843,7 @@ let allProducts = [
     id: 527,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18534883/0a1ee_512.jpg",
     similar: [
@@ -11865,7 +11865,7 @@ let allProducts = [
     id: 528,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/20588844/6fcfc_512.jpg",
     similar: [
@@ -11887,7 +11887,7 @@ let allProducts = [
     id: 529,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27509306/b8aa8_512.jpg",
     similar: [
@@ -11909,7 +11909,7 @@ let allProducts = [
     id: 530,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82051423/qhsve_512.jpg",
     similar: [
@@ -11931,7 +11931,7 @@ let allProducts = [
     id: 531,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51976211/odzwd_512.jpg",
     similar: [
@@ -11953,7 +11953,7 @@ let allProducts = [
     id: 532,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/9252619/09097_512.jpg",
     similar: [
@@ -11975,7 +11975,7 @@ let allProducts = [
     id: 533,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68558190/orgme_512.jpg",
     similar: [
@@ -11997,7 +11997,7 @@ let allProducts = [
     id: 534,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3368156/1_512.jpg",
     similar: [
@@ -12019,7 +12019,7 @@ let allProducts = [
     id: 535,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27970997/c08c2_512.jpg",
     similar: [
@@ -12041,7 +12041,7 @@ let allProducts = [
     id: 536,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18236875/2fc3f_512.jpg",
     similar: [
@@ -12063,7 +12063,7 @@ let allProducts = [
     id: 537,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/20997692/3df6d_512.jpg",
     similar: [
@@ -12085,7 +12085,7 @@ let allProducts = [
     id: 538,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3368088/1_512.jpg",
     similar: [
@@ -12107,7 +12107,7 @@ let allProducts = [
     id: 539,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3272785/1_512.jpg",
     similar: [
@@ -12129,7 +12129,7 @@ let allProducts = [
     id: 540,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7415478/89b73_512.jpg",
     similar: [
@@ -12151,7 +12151,7 @@ let allProducts = [
     id: 541,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/23432058/5a99f_512.jpg",
     similar: [
@@ -12173,7 +12173,7 @@ let allProducts = [
     id: 542,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73554811/ypi7c_512.jpg",
     similar: [
@@ -12195,7 +12195,7 @@ let allProducts = [
     id: 543,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/22213599/1297b_512.jpg",
     similar: [
@@ -12217,7 +12217,7 @@ let allProducts = [
     id: 544,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7099919/78094_512.jpg",
     similar: [
@@ -12239,7 +12239,7 @@ let allProducts = [
     id: 545,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73340479/r0aep_512.jpg",
     similar: [
@@ -12261,7 +12261,7 @@ let allProducts = [
     id: 546,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18463526/672dc_512.jpg",
     similar: [
@@ -12283,7 +12283,7 @@ let allProducts = [
     id: 547,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3116621/1_512.jpg",
     similar: [
@@ -12305,7 +12305,7 @@ let allProducts = [
     id: 548,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18562470/3e96f_512.jpg",
     similar: [
@@ -12327,7 +12327,7 @@ let allProducts = [
     id: 549,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73496963/pq2hd_512.jpg",
     similar: [
@@ -12349,7 +12349,7 @@ let allProducts = [
     id: 550,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/65850137/oofpk_512.jpg",
     similar: [
@@ -12371,7 +12371,7 @@ let allProducts = [
     id: 551,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68908519/5hckm_512.jpg",
     similar: [
@@ -12393,7 +12393,7 @@ let allProducts = [
     id: 552,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74408888/ngink_512.jpg",
     similar: [
@@ -12415,7 +12415,7 @@ let allProducts = [
     id: 553,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/3119128/1_512.jpg",
     similar: [
@@ -12437,7 +12437,7 @@ let allProducts = [
     id: 554,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18407397/0076d_512.jpg",
     similar: [
@@ -12459,7 +12459,7 @@ let allProducts = [
     id: 555,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71946557/qxoqe_512.jpg",
     similar: [
@@ -12481,7 +12481,7 @@ let allProducts = [
     id: 556,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/8132640/85456_512.jpg",
     similar: [
@@ -12503,7 +12503,7 @@ let allProducts = [
     id: 557,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/25793385/0d867_512.jpg",
     similar: [
@@ -12525,7 +12525,7 @@ let allProducts = [
     id: 558,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6442407/b7589_512.jpg",
     similar: [
@@ -12547,7 +12547,7 @@ let allProducts = [
     id: 559,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6450980/d2073_512.jpg",
     similar: [
@@ -12569,7 +12569,7 @@ let allProducts = [
     id: 560,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7978969/bfc08_512.jpg",
     similar: [
@@ -12591,7 +12591,7 @@ let allProducts = [
     id: 561,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47213307/mi22q_512.jpg",
     similar: [
@@ -12613,7 +12613,7 @@ let allProducts = [
     id: 562,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59088437/6vc1r_512.jpg",
     similar: [
@@ -12635,7 +12635,7 @@ let allProducts = [
     id: 563,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63473953/zxpj3_512.jpg",
     similar: [
@@ -12657,7 +12657,7 @@ let allProducts = [
     id: 564,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42935577/wygll_512.jpg",
     similar: [
@@ -12679,7 +12679,7 @@ let allProducts = [
     id: 565,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47288050/bayb1_512.jpg",
     similar: [
@@ -12701,7 +12701,7 @@ let allProducts = [
     id: 566,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/56582595/0za0m_512.jpg",
     similar: [
@@ -12723,7 +12723,7 @@ let allProducts = [
     id: 567,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63412560/28lws_512.jpg",
     similar: [
@@ -12745,7 +12745,7 @@ let allProducts = [
     id: 568,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47128026/fvghv_512.jpg",
     similar: [
@@ -12767,7 +12767,7 @@ let allProducts = [
     id: 569,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/50655629/fcvut_512.jpg",
     similar: [
@@ -12789,7 +12789,7 @@ let allProducts = [
     id: 570,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81799329/ujfap_512.jpg",
     similar: [
@@ -12811,7 +12811,7 @@ let allProducts = [
     id: 571,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63053899/5ajmj_512.jpg",
     similar: [
@@ -12833,7 +12833,7 @@ let allProducts = [
     id: 572,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/5217560/1_512.jpg",
     similar: [
@@ -12855,7 +12855,7 @@ let allProducts = [
     id: 573,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49652451/g6dig_512.jpg",
     similar: [
@@ -12877,7 +12877,7 @@ let allProducts = [
     id: 574,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71500851/sn7wl_512.jpg",
     similar: [
@@ -12899,7 +12899,7 @@ let allProducts = [
     id: 575,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/57867469/uybrc_512.jpg",
     similar: [
@@ -12921,7 +12921,7 @@ let allProducts = [
     id: 576,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/69173604/o6ryt_512.jpg",
     similar: [
@@ -12943,7 +12943,7 @@ let allProducts = [
     id: 577,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45286059/ymtmk_512.jpg",
     similar: [
@@ -12965,7 +12965,7 @@ let allProducts = [
     id: 578,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/34656026/wqmq7_512.jpg",
     similar: [
@@ -12987,7 +12987,7 @@ let allProducts = [
     id: 579,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77810694/0fcgn_512.jpg",
     similar: [
@@ -13009,7 +13009,7 @@ let allProducts = [
     id: 580,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73854543/7a4ty_512.jpg",
     similar: [
@@ -13031,7 +13031,7 @@ let allProducts = [
     id: 581,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78288824/ibile_512.jpg",
     similar: [
@@ -13053,7 +13053,7 @@ let allProducts = [
     id: 582,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/22718248/aeda0_512.jpg",
     similar: [
@@ -13075,7 +13075,7 @@ let allProducts = [
     id: 583,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/45226294/h4vgb_512.jpg",
     similar: [
@@ -13097,7 +13097,7 @@ let allProducts = [
     id: 584,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63669972/vs0et_512.jpg",
     similar: [
@@ -13119,7 +13119,7 @@ let allProducts = [
     id: 585,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79887723/riswb_512.jpg",
     similar: [
@@ -13141,7 +13141,7 @@ let allProducts = [
     id: 586,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63130002/4ume5_512.jpg",
     similar: [
@@ -13163,7 +13163,7 @@ let allProducts = [
     id: 587,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66754636/q5br0_512.jpg",
     similar: [
@@ -13185,7 +13185,7 @@ let allProducts = [
     id: 588,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/57933293/o7jwl_512.jpg",
     similar: [
@@ -13207,7 +13207,7 @@ let allProducts = [
     id: 589,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/66754612/v9fur_512.jpg",
     similar: [
@@ -13229,7 +13229,7 @@ let allProducts = [
     id: 590,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/86420668/at5hj_512.jpg",
     similar: [
@@ -13251,7 +13251,7 @@ let allProducts = [
     id: 591,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/90988793/ybn5i_512.jpg",
     similar: [
@@ -13273,7 +13273,7 @@ let allProducts = [
     id: 592,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71583275/gtdfh_512.jpg",
     similar: [
@@ -13295,7 +13295,7 @@ let allProducts = [
     id: 593,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/64888100/qjjvq_512.jpg",
     similar: [
@@ -13317,7 +13317,7 @@ let allProducts = [
     id: 594,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82275437/9h44i_512.jpg",
     similar: [
@@ -13339,7 +13339,7 @@ let allProducts = [
     id: 595,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/33593414/cajsm_512.jpg",
     similar: [
@@ -13361,7 +13361,7 @@ let allProducts = [
     id: 596,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/83954756/uselo_512.jpg",
     similar: [
@@ -13383,7 +13383,7 @@ let allProducts = [
     id: 597,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/33600545/b6omp_512.jpg",
     similar: [
@@ -13405,7 +13405,7 @@ let allProducts = [
     id: 598,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/28102745/faae5_512.jpg",
     similar: [
@@ -13427,7 +13427,7 @@ let allProducts = [
     id: 599,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77415351/cpjhr_512.jpg",
     similar: [
@@ -13449,7 +13449,7 @@ let allProducts = [
     id: 600,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/25246043/6653c_512.jpg",
     similar: [
@@ -13471,7 +13471,7 @@ let allProducts = [
     id: 601,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6595120/05f46_512.jpg",
     similar: [
@@ -13493,7 +13493,7 @@ let allProducts = [
     id: 602,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54983107/5pmai_512.jpg",
     similar: [
@@ -13515,7 +13515,7 @@ let allProducts = [
     id: 603,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6595297/jqhi2_512.jpg",
     similar: [
@@ -13537,7 +13537,7 @@ let allProducts = [
     id: 604,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51564135/obryr_512.jpg",
     similar: [
@@ -13559,7 +13559,7 @@ let allProducts = [
     id: 605,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72832591/nqlgo_512.jpg",
     similar: [
@@ -13581,7 +13581,7 @@ let allProducts = [
     id: 606,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68428098/jlu7n_512.jpg",
     similar: [
@@ -13603,7 +13603,7 @@ let allProducts = [
     id: 607,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84176549/kafoh_512.jpg",
     similar: [
@@ -13625,7 +13625,7 @@ let allProducts = [
     id: 608,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59153559/jlcis_512.jpg",
     similar: [
@@ -13647,7 +13647,7 @@ let allProducts = [
     id: 609,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76854886/sru74_512.jpg",
     similar: [
@@ -13669,7 +13669,7 @@ let allProducts = [
     id: 610,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42716482/qfb2t_512.jpg",
     similar: [
@@ -13691,7 +13691,7 @@ let allProducts = [
     id: 611,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62188298/ctenm_512.jpg",
     similar: [
@@ -13713,7 +13713,7 @@ let allProducts = [
     id: 612,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71352908/w1iit_512.jpg",
     similar: [
@@ -13735,7 +13735,7 @@ let allProducts = [
     id: 613,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/75576189/xatw3_512.jpg",
     similar: [
@@ -13757,7 +13757,7 @@ let allProducts = [
     id: 614,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/57518428/vg2uq_512.jpg",
     similar: [
@@ -13779,7 +13779,7 @@ let allProducts = [
     id: 615,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/82978246/lt74u_512.jpg",
     similar: [
@@ -13801,7 +13801,7 @@ let allProducts = [
     id: 616,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79955950/v1yjm_512.jpg",
     similar: [
@@ -13823,7 +13823,7 @@ let allProducts = [
     id: 617,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/49652451/g6dig_512.jpg",
     similar: [
@@ -13845,7 +13845,7 @@ let allProducts = [
     id: 618,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62729499/25h8t_512.jpg",
     similar: [
@@ -13867,7 +13867,7 @@ let allProducts = [
     id: 619,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/37346164/08sa1_512.jpg",
     similar: [
@@ -13889,7 +13889,7 @@ let allProducts = [
     id: 620,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/37346172/muima_512.jpg",
     similar: [
@@ -13911,7 +13911,7 @@ let allProducts = [
     id: 621,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84668646/o2wug_512.jpg",
     similar: [
@@ -13933,7 +13933,7 @@ let allProducts = [
     id: 622,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71687540/rpmqu_512.jpg",
     similar: [
@@ -13955,7 +13955,7 @@ let allProducts = [
     id: 623,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42440241/pua42_512.jpg",
     similar: [
@@ -13977,7 +13977,7 @@ let allProducts = [
     id: 624,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72707233/nqwq6_512.jpg",
     similar: [
@@ -13999,7 +13999,7 @@ let allProducts = [
     id: 625,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60437846/5xcou_512.jpg",
     similar: [
@@ -14021,7 +14021,7 @@ let allProducts = [
     id: 626,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/58056075/okpm7_512.jpg",
     similar: [
@@ -14043,7 +14043,7 @@ let allProducts = [
     id: 627,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72628721/socyn_512.jpg",
     similar: [
@@ -14065,7 +14065,7 @@ let allProducts = [
     id: 628,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79829057/dnt8a_512.jpg",
     similar: [
@@ -14087,7 +14087,7 @@ let allProducts = [
     id: 629,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68517058/65dcn_512.jpg",
     similar: [
@@ -14109,7 +14109,7 @@ let allProducts = [
     id: 630,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/62321713/k8j6s_512.jpg",
     similar: [
@@ -14131,7 +14131,7 @@ let allProducts = [
     id: 631,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/75684471/k5xgi_512.jpg",
     similar: [
@@ -14153,7 +14153,7 @@ let allProducts = [
     id: 632,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78798340/ik8xa_512.jpg",
     similar: [
@@ -14175,7 +14175,7 @@ let allProducts = [
     id: 633,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/52925395/ozafw_512.jpg",
     similar: [
@@ -14197,7 +14197,7 @@ let allProducts = [
     id: 634,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/80860225/bjvad_512.jpg",
     similar: [
@@ -14219,7 +14219,7 @@ let allProducts = [
     id: 635,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61702649/qhext_512.jpg",
     similar: [
@@ -14241,7 +14241,7 @@ let allProducts = [
     id: 636,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59817236/ptycs_512.jpg",
     similar: [
@@ -14263,7 +14263,7 @@ let allProducts = [
     id: 637,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59041220/dz6h4_512.jpg",
     similar: [
@@ -14285,7 +14285,7 @@ let allProducts = [
     id: 638,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/24652731/4b7cf_512.jpg",
     similar: [
@@ -14307,7 +14307,7 @@ let allProducts = [
     id: 639,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/35575591/mthtl_512.jpg",
     similar: [
@@ -14329,7 +14329,7 @@ let allProducts = [
     id: 640,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/18554069/de0a4_512.jpg",
     similar: [
@@ -14351,7 +14351,7 @@ let allProducts = [
     id: 641,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79968386/a338s_512.jpg",
     similar: [
@@ -14374,7 +14374,7 @@ let allProducts = [
     id: 642,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/22269634/f0e13_512.jpg",
     similar: [
@@ -14397,7 +14397,7 @@ let allProducts = [
     id: 643,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/87706696/f4flp_512.jpg",
     similar: [
@@ -14420,7 +14420,7 @@ let allProducts = [
     id: 644,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/88841367/ixv7e_512.jpg",
     similar: [
@@ -14443,7 +14443,7 @@ let allProducts = [
     id: 645,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/73104646/rwjcm_512.jpg",
     similar: [
@@ -14466,7 +14466,7 @@ let allProducts = [
     id: 646,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6279695/ca8db_512.jpg",
     similar: [
@@ -14489,7 +14489,7 @@ let allProducts = [
     id: 647,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/13493479/3ed0f_512.jpg",
     similar: [
@@ -14512,7 +14512,7 @@ let allProducts = [
     id: 648,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84379190/9z1f3_512.jpg",
     similar: [
@@ -14535,7 +14535,7 @@ let allProducts = [
     id: 649,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72633299/0le7g_512.jpg",
     similar: [
@@ -14558,7 +14558,7 @@ let allProducts = [
     id: 650,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/80430071/yo2fx_512.jpg",
     similar: [
@@ -14581,7 +14581,7 @@ let allProducts = [
     id: 651,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79542410/dgxpz_512.jpg",
     similar: [
@@ -14604,7 +14604,7 @@ let allProducts = [
     id: 652,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78219996/nu2hs_512.jpg",
     similar: [
@@ -14627,7 +14627,7 @@ let allProducts = [
     id: 653,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27843674/e8z0l_512.jpg",
     similar: [
@@ -14650,7 +14650,7 @@ let allProducts = [
     id: 654,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42062252/8ncks_512.jpg",
     similar: [
@@ -14673,7 +14673,7 @@ let allProducts = [
     id: 655,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27830619/nibc2_512.jpg",
     similar: [
@@ -14696,7 +14696,7 @@ let allProducts = [
     id: 656,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42062324/o0xy0_512.jpg",
     similar: [
@@ -14719,7 +14719,7 @@ let allProducts = [
     id: 657,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/42062192/6yzsz_512.jpg",
     similar: [
@@ -14742,7 +14742,7 @@ let allProducts = [
     id: 658,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27844885/u4he9_512.jpg",
     similar: [
@@ -14765,7 +14765,7 @@ let allProducts = [
     id: 659,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27841025/qjqqe_512.jpg",
     similar: [
@@ -14788,7 +14788,7 @@ let allProducts = [
     id: 660,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/27844659/pbet8_512.jpg",
     similar: [
@@ -14811,7 +14811,7 @@ let allProducts = [
     id: 661,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77865550/igev4_512.jpg",
     similar: [
@@ -14834,7 +14834,7 @@ let allProducts = [
     id: 662,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/85005236/5pqtb_512.jpg",
     similar: [
@@ -14857,7 +14857,7 @@ let allProducts = [
     id: 663,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79742608/ieklj_512.jpg",
     similar: [
@@ -14880,7 +14880,7 @@ let allProducts = [
     id: 664,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81094776/ii6sy_512.jpg",
     similar: [
@@ -14903,7 +14903,7 @@ let allProducts = [
     id: 665,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/92200126/br7x6_512.jpg",
     similar: [
@@ -14926,7 +14926,7 @@ let allProducts = [
     id: 666,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/31295201/17c35_512.jpg",
     similar: [
@@ -14949,7 +14949,7 @@ let allProducts = [
     id: 667,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/5768847/1_512.jpg",
     similar: [
@@ -14972,7 +14972,7 @@ let allProducts = [
     id: 668,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6186333/56cbe_512.jpg",
     similar: [
@@ -14995,7 +14995,7 @@ let allProducts = [
     id: 669,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/32014384/2a377_512.jpg",
     similar: [
@@ -15018,7 +15018,7 @@ let allProducts = [
     id: 670,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68726557/wfwe8_512.jpg",
     similar: [
@@ -15041,7 +15041,7 @@ let allProducts = [
     id: 671,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16713795/7bd3c_512.jpg",
     similar: [
@@ -15064,7 +15064,7 @@ let allProducts = [
     id: 672,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/2303214/vjfjg_512.jpg",
     similar: [
@@ -15087,7 +15087,7 @@ let allProducts = [
     id: 673,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/85536863/bwltv_512.jpg",
     similar: [
@@ -15110,7 +15110,7 @@ let allProducts = [
     id: 674,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/5931879/925a3_512.jpg",
     similar: [
@@ -15133,7 +15133,7 @@ let allProducts = [
     id: 675,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81890085/igcrx_512.jpg",
     similar: [
@@ -15156,7 +15156,7 @@ let allProducts = [
     id: 676,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/84845652/eqb55_512.jpg",
     similar: [
@@ -15179,7 +15179,7 @@ let allProducts = [
     id: 677,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81884390/i7wt1_512.jpg",
     similar: [
@@ -15202,7 +15202,7 @@ let allProducts = [
     id: 678,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59781543/rhy0y_512.jpg",
     similar: [
@@ -15225,7 +15225,7 @@ let allProducts = [
     id: 679,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/76730479/f64uc_512.jpg",
     similar: [
@@ -15248,7 +15248,7 @@ let allProducts = [
     id: 680,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/47778446/9iwcd_512.jpg",
     similar: [
@@ -15271,7 +15271,7 @@ let allProducts = [
     id: 681,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/63967076/l9sn8_512.jpg",
     similar: [
@@ -15294,7 +15294,7 @@ let allProducts = [
     id: 682,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68124193/9xhyk_512.jpg",
     similar: [
@@ -15317,7 +15317,7 @@ let allProducts = [
     id: 683,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/80415378/71lqb_512.jpg",
     similar: [
@@ -15340,7 +15340,7 @@ let allProducts = [
     id: 684,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72941854/xesad_512.jpg",
     similar: [
@@ -15363,7 +15363,7 @@ let allProducts = [
     id: 685,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/26115933/275d3_512.jpg",
     similar: [
@@ -15386,7 +15386,7 @@ let allProducts = [
     id: 686,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/51051198/lvrbz_512.jpg",
     similar: [
@@ -15409,7 +15409,7 @@ let allProducts = [
     id: 687,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/77295108/waazh_512.jpg",
     similar: [
@@ -15432,7 +15432,7 @@ let allProducts = [
     id: 688,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/14023058/29e71_512.jpg",
     similar: [
@@ -15455,7 +15455,7 @@ let allProducts = [
     id: 689,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11898680/4ed7e_512.jpg",
     similar: [
@@ -15478,7 +15478,7 @@ let allProducts = [
     id: 690,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/24417210/fba61_512.jpg",
     similar: [
@@ -15501,7 +15501,7 @@ let allProducts = [
     id: 691,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/34204265/5w2jy_512.jpg",
     similar: [
@@ -15524,7 +15524,7 @@ let allProducts = [
     id: 692,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/16366352/792e7_512.jpg",
     similar: [
@@ -15547,7 +15547,7 @@ let allProducts = [
     id: 693,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/11789285/82890_512.jpg",
     similar: [
@@ -15570,7 +15570,7 @@ let allProducts = [
     id: 694,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/7541956/e93ce_512.jpg",
     similar: [
@@ -15593,7 +15593,7 @@ let allProducts = [
     id: 695,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79359481/uz1yx_512.jpg",
     similar: [
@@ -15616,7 +15616,7 @@ let allProducts = [
     id: 696,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/72749176/1pjnn_512.jpg",
     similar: [
@@ -15639,7 +15639,7 @@ let allProducts = [
     id: 697,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/67517999/zwwzb_512.jpg",
     similar: [
@@ -15662,7 +15662,7 @@ let allProducts = [
     id: 698,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/54113321/p8qxq_512.jpg",
     similar: [
@@ -15685,7 +15685,7 @@ let allProducts = [
     id: 699,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71901370/h59ej_512.jpg",
     similar: [
@@ -15708,7 +15708,7 @@ let allProducts = [
     id: 700,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/6468725/40549_512.jpg",
     similar: [
@@ -15731,7 +15731,7 @@ let allProducts = [
     id: 701,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/68481226/oo7dw_512.jpg",
     similar: [
@@ -15754,7 +15754,7 @@ let allProducts = [
     id: 702,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70904127/itxaw_512.jpg",
     similar: [
@@ -15777,7 +15777,7 @@ let allProducts = [
     id: 703,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71700384/mef7s_512.jpg",
     similar: [
@@ -15800,7 +15800,7 @@ let allProducts = [
     id: 704,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/70894281/k3hao_512.jpg",
     similar: [
@@ -15823,7 +15823,7 @@ let allProducts = [
     id: 705,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81591596/6vhjh_512.jpg",
     similar: [
@@ -15846,7 +15846,7 @@ let allProducts = [
     id: 706,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78529677/2eoyb_512.jpg",
     similar: [
@@ -15869,7 +15869,7 @@ let allProducts = [
     id: 707,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/78593884/92g2z_512.jpg",
     similar: [
@@ -15892,7 +15892,7 @@ let allProducts = [
     id: 708,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74465327/tv3nk_512.jpg",
     similar: [
@@ -15915,7 +15915,7 @@ let allProducts = [
     id: 709,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/59512232/sinkw_512.jpg",
     similar: [
@@ -15938,7 +15938,7 @@ let allProducts = [
     id: 710,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71233069/liqox_512.jpg",
     similar: [
@@ -15961,7 +15961,7 @@ let allProducts = [
     id: 711,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/60202146/irdyd_512.jpg",
     similar: [
@@ -15984,7 +15984,7 @@ let allProducts = [
     id: 712,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/20962913/184d4_512.jpg",
     similar: [
@@ -16007,7 +16007,7 @@ let allProducts = [
     id: 713,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79977062/y9uvs_512.jpg",
     similar: [
@@ -16030,7 +16030,7 @@ let allProducts = [
     id: 714,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/74775284/ds37w_512.jpg",
     similar: [
@@ -16053,7 +16053,7 @@ let allProducts = [
     id: 715,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/2441502/1_512.jpg",
     similar: [
@@ -16076,7 +16076,7 @@ let allProducts = [
     id: 716,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/61458192/mpj0f_512.jpg",
     similar: [
@@ -16099,7 +16099,7 @@ let allProducts = [
     id: 717,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/9316531/d83b1_512.jpg",
     similar: [
@@ -16122,7 +16122,7 @@ let allProducts = [
     id: 718,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/81094776/ii6sy_512.jpg",
     similar: [
@@ -16145,7 +16145,7 @@ let allProducts = [
     id: 719,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/79065413/xaw0t_512.jpg",
     similar: [
@@ -16168,7 +16168,7 @@ let allProducts = [
     id: 720,
     sprice: Math.floor(Math.random() * 1240 + 450),
     aprice: Math.floor(Math.random() * 100 + 1690),
-    rating: Math.round(Math.random() * 35 + 15) / 10,
+    rating: 4.6,
     reviews: Math.round(Math.random() * 1700),
     img: "https://images.meesho.com/images/products/71495607/ybkfm_512.jpg",
     similar: [
