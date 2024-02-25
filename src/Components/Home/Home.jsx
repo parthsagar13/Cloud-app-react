@@ -19,7 +19,7 @@ export default function Home() {
 
       <SlliderView />
 
-      <div style={{ margin: "1rem" }}>
+      <div>
         <img src="https://kalamandir.online/static/media/Poster1.8c0aff28d27a959880ff.webp" style={{ width: "100%" }} alt="" />
       </div>
 
