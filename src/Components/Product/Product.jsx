@@ -2,63 +2,46 @@ import React from "react";
 import { allProducts } from "../../AllProducts";
 import { Main } from "../Home/Styled-Home";
 import { useParams } from "react-router-dom";
-// import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-
 import { FaStar } from "react-icons/fa";
-// import "../Home/Styled-Home.jsx";
 import { Section } from "./Styled-Product";
-
 import "./product.css";
+
 let i;
+
 export default function Product() {
+
   let products = [...allProducts];
   products.sort(() => Math.random() - 0.5);
-  // console.log(allProducts);
   let { id } = useParams();
-  // let [state, setState] = React.useState("Add to Cart");
-  
+
   let [image, setImage] = React.useState("");
-  // let cart = useSelector((state) => state.cart);
-  // let dispatch = useDispatch();
-  console.log(id);
   for (i = 0; i < allProducts.length; i++) {
     if (allProducts[i].id === +id) {
       break;
     }
   }
-  // if (cart.includes(+id)) state = "Already in the Cart";
 
-  // const clcHandler = (e) => {
-  //   dispatch(addToCart(e.target.id));
-  //   if (state === "Add to Cart") setState("Already in the Cart");
-  // };
-
-  console.log(allProducts[i], i);
   let { img, name, sprice, aprice, rating, reviews, details } =
     allProducts[i] || allProducts[0];
+
   React.useEffect(() => {
     setImage(img);
     window.scrollTo(0, 0);
   }, [img]);
+
   return (
     <>
       <Section id="single-product">
         <article id="product-article-1"></article>
         <article id="product-article-2">
           <img src={image} alt="" id="main-img" />
-          {/* <button id={+id} onClick={clcHandler}>
-            <FaShoppingCart /> {state}
-          </button> */}
         </article>
         <article id="product-article-3">
           <div id="price">
             <h2>{name}</h2>
             <h3 className="price">
               ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
-              {/* <span className="discount">
-                {((1 - sprice / aprice) * 100).toFixed(1)}% off
-              </span> */}
             </h3>
             <h4 className="rating">
               <span>
@@ -103,7 +86,6 @@ export default function Product() {
                     <p className="price">
                       ₹{sprice} <span className="aprice">₹{aprice}</span>{" "}
                       <span className="discount">
-                        {/* {((1 - sprice / aprice) * 100).toFixed(1)}% off */}
                         {off}% off
                       </span>
                     </p>

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import "./address.css";
 import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
+import "./address.css";
 
 function Address() {
   const [formData, setFormData] = useState({
@@ -26,8 +26,6 @@ function Address() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
   };
 
   return (

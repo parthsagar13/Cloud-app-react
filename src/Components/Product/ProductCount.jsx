@@ -1,13 +1,9 @@
-import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom';
 import staticIcon from '../../Helper/images';
-import Footer from '../Footer/Footer';
 
 function ProductCount() {
-
     const [count, setCount] = React.useState(1);
-    const Nav = useNavigate()
-
 
     return (
         <>
