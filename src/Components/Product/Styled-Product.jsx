@@ -29,7 +29,6 @@ let Section = styled.section`
   }
   #product-article-2 {
     display: block;
-    margin-right: 30px;
     position: relative;
     height: fit-content;
     text-align: center;
@@ -166,6 +165,7 @@ let Section = styled.section`
       padding: 10px;
       font-weight: bold;
       margin-right: 12px;
+      margin-top: 12px;
     }
 
     #details p:nth-of-type(1) {

@@ -1,131 +1,106 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { increaseStep } from "../../Redux/action";
-import PhoneIconOutlinedIcon from "@mui/icons-material/PhoneOutlined";
-import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+import React, { useState } from 'react';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import "./address.css";
-let data = [
-  "Harsh Gajera",
-  7046581170,
-  "B-107, XYZ Complex",
-  "Kheda Road",
-  387411,
-  "Kheda",
-  "Gujarat",
-  "Near Busstand",
-];
-export default function Address() {
-  let [inp, setInp] = React.useState(data);
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const handleSubmit = () => {
-    dispatch(increaseStep());
-    navigate("/checkout/payment");
+import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+
+function Address() {
+  const [formData, setFormData] = useState({
+    fullname: '',
+    phone: '',
+    pincode: '',
+    country: '',
+    state: '',
+    city: '',
+    flat: '',
+    area: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
   };
-  React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  const changeHandler = (e) => {
-    let newInp = [...inp];
-    let { id, value } = e.target;
-    newInp[+id] = value;
-    setInp(newInp);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic here
+    console.log(formData);
   };
+
   return (
-    <section id="address-section">
-      <form action="" onSubmit={handleSubmit}>
-        <h1>ADD ADDRESS</h1>
-        <hr />
-        <div>
-          <PhoneIconOutlinedIcon
-            sx={{ color: "#E93599", marginRight: "10px" }}
-          />
-          <h2>Contact Details</h2>
+    <div>
+      <Link to="/">
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", margin: "15px" }}>
+          <ArrowBackIcon /><a style={{ fontWeight: "700" }}>Add Delivery Address</a>
         </div>
-        <input
-          type="text"
-          placeholder="Name"
-          id="0"
-          value={inp[0]}
-          onChange={changeHandler}
-        />
-        <input
-          type="text"
-          placeholder="Phone Number"
-          id="1"
-          value={inp[1]}
-          onChange={changeHandler}
-        />
-        <div>
-          <LocationOnOutlinedIcon
-            sx={{ color: "#E93599", marginRight: "10px" }}
-          />
-          <h2>Address Details</h2>
-        </div>
-        <input
-          type="text"
-          placeholder="House no./ Building Name"
-          id="2"
-          value={inp[2]}
-          onChange={changeHandler}
-        />
-        <input
-          type="text"
-          placeholder="Road Name/ Area/ Colony"
-          id="3"
-          value={inp[3]}
-          onChange={changeHandler}
-        />
-        <input
-          type="text"
-          placeholder="Pincode"
-          id="4"
-          value={inp[4]}
-          onChange={changeHandler}
-        />
-        <input
-          type="text"
-          placeholder="City"
-          id="5"
-          value={inp[5]}
-          onChange={changeHandler}
-        />
-        <input
-          type="text"
-          placeholder="State"
-          id="6"
-          value={inp[6]}
-          onChange={changeHandler}
-        />
-        <input
-          type="text"
-          placeholder="Nearby Location (optional)"
-          id="7"
-          value={inp[7]}
-          onChange={changeHandler}
-        />
-        <button>Deliver to this Address</button>
-      </form>
-      <div>
-        <h1>Price Details</h1>
-        <p>
-          Product Charges<span>₹{localStorage.getItem("total")}</span>
-        </p>
-        <p>
-          Delivery Charges<span>+ ₹0</span>
-        </p>
-        <p>
-          COD Charges<span>+ ₹0</span>
-        </p>
-        <p>
-          1st Order Discount<span>- ₹50</span>
-        </p>
-        <hr />
-        <h2>
-          Order Total <span>₹{localStorage.getItem("total") - 50}</span>
-        </h2>
+      </Link>
+      <div className="container">
+        <form onSubmit={handleSubmit}>
+          <div className="form-row">
+            <div className="form-group">
+              <input type="text" id="fullname" name="fullname" placeholder='Full Name (Required)*' value={formData.fullname} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <input type="tel" id="phone" name="phone" placeholder='Mobile Number (Required)*' value={formData.phone} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <input type="text" id="pincode" name="pincode" placeholder='Pin Code (Required)*' value={formData.pincode} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <select id="country" name="country" value={formData.country} onChange={handleChange}>
+                <option value="">India</option>
+              </select>
+            </div>
+            <div className="form-group">
+              <select id="state" name="state" value={formData.state} onChange={handleChange}>
+                <option value="">State (Required)*</option>
+                <option value="">Assam</option>
+                <option value="">Bihar</option>
+                <option value="">Chandigarh</option>
+                <option value="">Dadra and Nagar Haveli and Daman and Diu</option>
+                <option value="">Delhi</option>
+                <option value="">Goa</option>
+                <option value="">Gujarat</option>
+                <option value="">Haryana</option>
+                <option value="">Himachal Pradesh</option>
+                <option value="">Jammu and Kashmir</option>
+                <option value="">Jharkhand</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerala</option>
+                <option value="">Ladakh</option>
+                <option value="">Lakshadweep</option>
+                <option value="">Madhya Pradesh</option>
+                <option value="">Maharashtra</option>
+                <option value="">Manipur</option>
+                <option value="">Meghalaya</option>
+                <option value="">Punjab</option>
+                <option value="">Uttar Pradesh</option>
+                <option value="">Uttarakhand</option>
+              </select>
+            </div>
+            <div className="form-group">
+              <select id="city" name="city" value={formData.city} onChange={handleChange}>
+                <option value="">City (Required)*</option>
+              </select>
+            </div>
+            <div className="form-group">
+              <input type="text" id="flat" name="flat" placeholder='Flat, House no, Building, Company' value={formData.flat} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <input type="text" id="area" name="area" placeholder='Area, Colony, Street, Sector, Village' value={formData.area} onChange={handleChange} />
+            </div>
+          </div>
+          <button className="form-group" id='button'>
+            SAVE ADDRESS
+          </button>
+        </form>
       </div>
-    </section>
+      <Footer />
+    </div>
   );
 }
+
+export default Address;

@@ -7,6 +7,7 @@ import Address from "../Address/Address";
 import Payment from "../Payment/Payment";
 import Summary from "../Summary/Summary";
 import Checkout from "../Checkout/Checkout";
+import ProductCount from "../Product/ProductCount";
 
 export default function AllRoutes() {
   return (
@@ -15,7 +16,15 @@ export default function AllRoutes() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
-        <Route path="/product/:id" element={<Product />} />
+        <Route
+          path="/product/:id"
+          element={
+            <>
+              <Product />
+              <ProductCount />
+            </>
+          }
+        />
         <Route
           path="/checkout/cart"
           element={
@@ -29,7 +38,6 @@ export default function AllRoutes() {
           path="/checkout/address"
           element={
             <>
-              <Checkout />
               <Address />
             </>
           }
