@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useMediaQuery } from '@material-ui/core';
 import 'swiper/css';
 
 export default function SliderComponent() {
@@ -60,6 +61,9 @@ export default function SliderComponent() {
         borderRadius: "50%"
     };
 
+    const isMobile = useMediaQuery('(max-width:600px)');
+    const slidesPerView = isMobile ? 3 : 5;
+
     return (
         <div style={{background: "rgb(241 245 249)"}}>
             <section style={{ display: "flex", justifyContent: "space-between", padding: "0.5rem 1rem"}}>
@@ -89,8 +93,8 @@ export default function SliderComponent() {
             <section style={{ paddingBottom: '0.5rem', paddingTop: '0.5rem', background: "white" }}>
                 <Swiper
                     style={swiperStyle2}
+                    slidesPerView={slidesPerView}
                     spaceBetween={1}
-                    slidesPerView={5}
                     autoplay={{ delay: 100 }}
                 >
                     {images2.map((image, index) => (
