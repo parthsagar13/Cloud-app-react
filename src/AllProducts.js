@@ -120,25 +120,6 @@ let allProducts = [
       "Combo of : Single",
     ],
   },
-  {
-    name: "Mandarin Collar Muslin All Over Geometric Print Grey Straight Tunic For Women",
-    type: "Women Ethnic",
-    id: 7,
-    sprice: 900,
-    aprice: 1299,
-    rating: 4.6,
-    reviews: 800,
-    off: 95,
-    img: "https://kalamandir.online/static/media/jj1.5513d867180863f46a16.webp",
-    // details: [
-    //   `Fit: Regular Fit`
-    //   `Fabric : ${random(Fabrics)}`,
-    //   `Neck: Mandarin Collar`,
-    //   "Sleeves : 3/4th Sleeves",
-    //   "Print Or Pattern : Ethnic Motifs",
-    //   "Length : Hip Length",
-    // ],
-  },
   
 ];
 export { allProducts };

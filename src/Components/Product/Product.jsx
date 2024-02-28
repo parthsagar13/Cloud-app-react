@@ -22,8 +22,7 @@ export default function Product() {
     }
   }
 
-  let { img, name, sprice, aprice, rating, reviews, details } =
-    allProducts[i] || allProducts[0];
+  let { img, name, sprice, aprice, rating, reviews, details } = allProducts[i] || allProducts[0];
 
   React.useEffect(() => {
     setImage(img);

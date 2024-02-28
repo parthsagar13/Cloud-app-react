@@ -1,184 +1,341 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { increaseStep } from "../../Redux/action";
+import React, { useState } from "react";
 import styled from "styled-components";
-let data = ["1234 5678 1234 5678", "12/25", "123", "Harsh Gajera"];
+import { Box, Dialog, DialogTitle, DialogContent } from "@material-ui/core";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Typography from "@mui/material/Typography";
+import CloseIcon from "@mui/icons-material/Close";
+import Slide from "@mui/material/Slide";
+import QRCode from "react-qr-code";
+import { allProducts } from "../../AllProducts";
+import { useParams } from "react-router-dom";
+
+const Transition = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
+
+let i;
+
 function Payment() {
-  let [inp, setInp] = React.useState(data);
-  let [color, setColor] = React.useState("#06A759");
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const handleClick = (e) => {
-    dispatch(increaseStep());
-    navigate("/checkout/summary");
-  };
-  const clr = () => {
-    if (color === "#06A759") {
-      setColor("grey");
-      return;
+
+  let products = [...allProducts];
+  products.sort(() => Math.random() - 0.5);
+  let { id } = useParams();
+
+  let [image, setImage] = React.useState("");
+  for (i = 0; i < allProducts.length; i++) {
+    if (allProducts[i].id === +id) {
+      break;
     }
-    setColor("#06A759");
-  };
+  }
+
+  let { img, name, sprice, aprice, rating, reviews, details } =
+    allProducts[id] || allProducts[0];
+
+  const [open, setOpen] = React.useState(false);
+  const [timeLeft, setTimeLeft] = React.useState(2 * 60); // 15 minutes in seconds
+
   React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-  const changeHandler = (e) => {
-    let newInp = [...inp];
-    let { id, value } = e.target;
-    newInp[+id] = value;
-    setInp(newInp);
+    const timer = setInterval(() => {
+      setTimeLeft((prevTime) => prevTime - 1);
+    }, 1000);
+
+    // Cleanup function to clear the interval when the component unmounts
+    return () => clearInterval(timer);
+  }, []); // Empty dependency array to run the effect only once on mount
+
+  // Convert seconds to minutes and seconds for display
+  const minutes = Math.floor(timeLeft / 60);
+  const seconds = timeLeft % 60;
+
+  React.useEffect(() => {
+    if (timeLeft === 0) {
+
+      setTimeLeft(2 * 60);
+    }
+  }, [timeLeft]);
+
+  const handleClickOpen = () => {
+    setOpen(true);
   };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
-    <Section>
-      <div>
-        <svg
-          width="28"
-          height="28"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          iconSize="20"
-          className="Icon-sc-1iwi4w1-0 bpNwUI"
-          style={{ marginRight: "13px" }}
+    <>
+      <Section>
+        <Box sx={{ display: "flex", justifyContent: "center" }}>
+          <p
+            style={{
+              fontFamily: "sans-serif",
+              fontSize: "16px",
+              fontWeight: "600",
+              letterSpacing: "1px",
+            }}
+          >
+            Total Payable Amount: ₹{sprice}
+          </p>
+        </Box>
+        <ClickableBox onClick={handleClickOpen}>
+          <img
+            style={{ width: "3rem" }}
+            alt="QR Code Example"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/QR_Code_Example.svg/256px-QR_Code_Example.svg.png"
+          />
+          <span
+            style={{
+              fontSize: "14px",
+              marginLeft: "0.75rem",
+            }}
+          >
+            QR Code
+          </span>
+        </ClickableBox>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            p: "0.5rem",
+            border: "0.1rem solid #e5e7eb",
+            borderRadius: "8px",
+          }}
         >
-          <path
-            d="M24.029 9.01v6.277L28 13.782 22.869.93a1 1 0 00-1.3-.558L0 9.011"
-            fill="#56BB8A"
-          ></path>
-          <path
-            d="M0 8.82h27a1 1 0 011 1v13.512a1 1 0 01-1 1H1a1 1 0 01-1-1V8.82z"
-            fill="#56BB8A"
-          ></path>
-          <path
-            d="M1.559 14.358c1.656-.35 2.952-1.265 3.447-2.435H23c.495 1.17 1.791 2.085 3.448 2.435v4.437c-1.657.35-2.953 1.265-3.448 2.435H5.006c-.496-1.17-1.791-2.085-3.447-2.435v-4.437z"
-            fill="#91E5BD"
-          ></path>
-          <path
-            d="M13.751 19.28c1.58 0 2.86-1.277 2.86-2.852a2.857 2.857 0 00-2.86-2.853 2.857 2.857 0 00-2.86 2.853 2.857 2.857 0 002.86 2.852z"
-            fill="#56BB8A"
-          ></path>
-          <path
-            d="M23.635 9.01L22.28 5.53l-.062-.153a4.018 4.018 0 01-3.5-1.501l-.154.062L6.296 9.01h17.34z"
-            fill="#91E5BD"
-          ></path>
-          <path
-            d="M7.28 16.998a.571.571 0 100-1.142.571.571 0 000 1.143zM19.865 16.998a.571.571 0 10.002-1.142.571.571 0 00-.002 1.143z"
-            fill="#56BB8A"
-          ></path>
-        </svg>
-        <p>Cash on Delivery</p>
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          height="24"
-          width="24"
-          iconSize="20"
-          className="Icon-sc-1iwi4w1-0 fvvrdU"
-          onClick={clr}
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            <img
+              style={{ width: "3rem" }}
+              alt="QR Code Example"
+              src="https://kalamandir.online/static/media/paytm_icon.3d48b89988f13e784e647886decd7ae5.svg"
+            />
+            <span
+              style={{
+                fontSize: "14px",
+                marginLeft: "0.75rem",
+              }}
+            >
+              Paytm
+            </span>
+          </Box>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <img
+              style={{ height: "9rem" }}
+              alt="QR Code Example"
+              src="https://kalamandir.online/static/media/paytm-20.128a0d33315995426dce.jpg"
+            />
+          </Box>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            p: "0.5rem",
+            border: "0.1rem solid #e5e7eb",
+            borderRadius: "8px",
+          }}
         >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12zM6.355 12.322l2.761 2.76 7.863-7.85A.793.793 0 1118.1 8.355l-8.42 8.413a.793.793 0 01-1.122 0l-3.326-3.324a.791.791 0 01.56-1.354c.211 0 .413.084.562.233z"
-            fill={color}
-          ></path>
-        </svg>
-      </div>
-      <form action="">
-        <h1>ADD PAYMENT METHOD</h1>
-        <hr />
-        <h2>Card Number</h2>
-        <input
-          type="text"
-          placeholder="Card Number"
-          id="0"
-          value={inp[0]}
-          onChange={changeHandler}
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            <img
+              style={{ width: "3rem" }}
+              alt="QR Code Example"
+              src="https://kalamandir.online/static/media/phonepeicon.e79785763e0c4095b6335e54e9971960.svg"
+            />
+            <span
+              style={{
+                fontSize: "14px",
+                marginLeft: "0.75rem",
+              }}
+            >
+              PhonePe
+            </span>
+          </Box>
+          <Box sx={{ display: "flex", justifyContent: "center" }}>
+            <img
+              style={{ height: "9rem" }}
+              alt="QR Code Example"
+              src="https://kalamandir.online/static/media/PhonePe20.f93a4e940e893aea3f89.jpg"
+            />
+          </Box>
+        </Box>
+        <ClickableBox>
+          <img
+            style={{ width: "3rem" }}
+            alt="QR Code Example"
+            src="https://kalamandir.online/static/media/whatspp_pay.e2ed34befa5836e5a0be68764c2ee95f.svg"
+          />
+          <span
+            style={{
+              fontSize: "14px",
+              marginLeft: "0.75rem",
+            }}
+          >
+            Whatsapp Pay
+          </span>
+        </ClickableBox>
+        <Dialog
+          fullScreen
+          open={open}
+          onClose={handleClose}
+          TransitionComponent={Transition}
+        >
+          <Toolbar
+            sx={{
+              position: "relative",
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
+          >
+            <IconButton
+              edge="start"
+              color="inherit"
+              onClick={handleClose}
+              aria-label="close"
+            >
+              <CloseIcon />
+            </IconButton>
+          </Toolbar>
+          <Box
+            sx={{
+              height: "100%",
+              width: "100%",
+              display: "flex",
+              textAlign: "center",
+              justifyContent: "center",
+            }}
+          >
+            <div>
+              <QRCode
+                size={256}
+                style={{ width: '100%', height: "auto", maxWidth: '100%' }}
+                value={`upi://pay?pa=mab.037323010500111@axisbank&pn=Shop&purpose=00&am=${sprice}`}
+                viewBox="0 0 256 256"
+              />
+
+              <p style={{
+                marginTop: "1.25rem",
+                color: 'black',
+                letterSpacing: "normal"
+              }}>
+                Time Remaining:{" "}{minutes}:{seconds < 10 ? `0${seconds}` : seconds} minutes
+              </p>
+              <button
+                style={{
+                  backgroundColor: "rgb(234 88 12)",
+                  padding: "1rem 3rem",
+                  marginTop: "1.25rem",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "0.25rem",
+                  fontSize: "100%",
+                  fontFamily: "inherit",
+                  fontWeight: "inherit",
+                  lineHeight: "inherit",
+                }}
+              >
+                Continue
+              </button>
+              <p
+                onClick={handleClose}
+                style={{
+                  marginTop: "1.25rem",
+                  textDecorationLine: "underline",
+                  fontSize: "1.125rem",
+                  letterSpacing: "1px",
+                }}
+              >
+                Exit
+              </p>
+            </div>
+          </Box>
+        </Dialog>
+      </Section>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <p style={{ padding: "1rem", fontSize: "2rem" }}>Order Summary</p>
+      </Box>
+      <Section style={{ cursor: "default", marginBottom: "0.95rem" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            flexDirection: "column",
+          }}
+        >
+          <Typography sx={{}}>₹{sprice} <span style={{textDecoration: "line-through"}}>₹{aprice}</span></Typography>
+        <Typography sx={{}}>
+          {name}
+        </Typography>
+        <Typography sx={{}}>Quantity : 1</Typography>
+        <Typography sx={{}}>Size : xs</Typography>
+      </Box>
+    </Section >
+      <Section style={{ cursor: "default", padding: "9px 15px" }}>
+        <Typography sx={{}}>PRICE DETAILS</Typography>
+      </Section>
+      <Section
+        style={{
+          cursor: "default",
+          padding: "10px 15px",
+          marginBottom: "0.95rem",
+          display: "flex",
+          gap: "0.1rem",
+          justifyContent: "space-between",
+        }}
+      >
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography sx={{}}>Price (1 item)</Typography>
+          <Typography sx={{}}>₹{sprice}</Typography>
+        </div>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography sx={{}}>Delivery Charges</Typography>
+          <Typography sx={{}}>Free</Typography>
+        </div>
+        <hr></hr>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <Typography sx={{}}>Amount Payable</Typography>
+          <Typography sx={{}}>₹{sprice}</Typography>
+        </div>
+      </Section>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <img
+          style={{ maxWidth: "100%", height: "auto" }}
+          alt="QR Code Example"
+          src="https://kalamandir.online/static/media/lasttwo.bfe814c92613f117536e.jpg"
         />
-        <h2>Expiry Date</h2>
-        <input
-          type="text"
-          placeholder="MM/YY"
-          id="1"
-          value={inp[1]}
-          onChange={changeHandler}
+      </Box>
+      <Box sx={{ display: "flex", justifyContent: "center" }}>
+        <img
+          style={{ maxWidth: "100%", height: "auto", width: "100%" }}
+          alt="QR Code Example"
+          src="https://kalamandir.online/static/media/lastone.57da0c2b54ec9277a65b5a0951628ee4.svg"
         />
-        <h2>CVV</h2>
-        <input
-          type="text"
-          placeholder="CVV"
-          id="2"
-          value={inp[2]}
-          onChange={changeHandler}
-        />
-        <h2>Name on Card</h2>
-        <input
-          type="text"
-          placeholder="Name on Card"
-          id="3"
-          value={inp[3]}
-          onChange={changeHandler}
-        />
-        <button onClick={handleClick}>Place Order</button>
-      </form>
-    </Section>
+      </Box>
+    </>
   );
 }
 
 export default Payment;
 
-let Section = styled.section`
+const Section = styled.section`
   padding: 50px 0;
   max-width: 95%;
-  width: 400px;
-  display: grid;
-  gap: 2.5vw;
-  margin: 30px auto 50px;
-  box-shadow: 1px 1px 6px 1px #e4e4e4;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  margin: 0px auto 0px;
   padding: 20px 15px;
+  border: 1px solid #e5e7eb;
   padding-bottom: 20px;
+  background-color: white;
   border-radius: 3px;
-  div {
-    display: flex;
-    align-items: center;
-    p {
-      flex-grow: 1;
-    }
-  }
-  h1 {
-    font-size: 22px;
-  }
-  hr {
-    border: none;
-    border-bottom: 1px solid rgb(221, 221, 221);
-    margin: 20px 0;
-  }
-  h2 {
-    font-size: 16px;
-    font-weight: 500;
-  }
-  form input {
-    width: 99%;
-    margin: 18px 0;
-    border: none;
-    border-bottom: 1px solid #000;
-    border-bottom: 1px solid rgb(178, 178, 178);
-    padding: 0 0 8px 6px;
-    cursor: pointer;
-    &:focus {
-      outline: none;
-    }
-  }
+`;
 
-  button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    border: none;
-    background-color: #f43397;
-    color: #fff;
-    font-weight: 500;
-    border-radius: 3px;
-  }
+const ClickableBox = styled(Box)`
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5rem;
+  border: 0.1rem solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
 `;

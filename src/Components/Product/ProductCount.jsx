@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import staticIcon from '../../Helper/images';
 
 function ProductCount() {
     const [count, setCount] = React.useState(1);
+    let { id } = useParams();
 
     return (
         <>
@@ -23,8 +24,7 @@ function ProductCount() {
                     <p style={{ border: "1px solid rgb(159 32 137)", fontSize: '18px', borderRadius: "6px", padding: '6px 25px' }}>{count}</p>
                     <p style={{ cursor: "pointer" }} onClick={() => setCount(count + 1)}>+</p>
                 </div>
-                <Link to="/checkout/address">
-
+                <Link to={`/checkout/address/${id}`}>
                     <button
                         style={{
                             padding: '1rem 2.5rem',

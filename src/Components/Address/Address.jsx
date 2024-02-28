@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import "./address.css";
 
 function Address() {
+  let { id } = useParams();
   const [formData, setFormData] = useState({
     fullname: '',
     phone: '',
@@ -91,9 +92,11 @@ function Address() {
               <input type="text" id="area" name="area" placeholder='Area, Colony, Street, Sector, Village' value={formData.area} onChange={handleChange} />
             </div>
           </div>
-          <button className="form-group" id='button'>
-            SAVE ADDRESS
-          </button>
+          <Link to={`/checkout/payment/${id}`}>
+            <button className="form-group" id='button'>
+              SAVE ADDRESS
+            </button>
+          </Link>
         </form>
       </div>
       <Footer />

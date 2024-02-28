@@ -26,16 +26,7 @@ export default function AllRoutes() {
           }
         />
         <Route
-          path="/checkout/cart"
-          element={
-            <>
-              <Checkout />
-              <Cart />
-            </>
-          }
-        />
-        <Route
-          path="/checkout/address"
+          path="/checkout/address/:id"
           element={
             <>
               <Address />
@@ -43,7 +34,7 @@ export default function AllRoutes() {
           }
         />
         <Route
-          path="/checkout/payment"
+          path="/checkout/payment/:id"
           element={
             <>
               <Checkout />
