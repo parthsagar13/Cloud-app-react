@@ -18,33 +18,28 @@ let i;
 
 function Payment() {
 
-  let products = [...allProducts];
-  products.sort(() => Math.random() - 0.5);
   let { id } = useParams();
 
-  let [image, setImage] = React.useState("");
-  for (i = 0; i < allProducts.length; i++) {
-    if (allProducts[i].id === +id) {
-      break;
-    }
-  }
+  let shuffledProducts = [...allProducts];
+  shuffledProducts.sort(() => Math.random() - 0.5);
 
-  let { img, name, sprice, aprice, rating, reviews, details } =
-    allProducts[id] || allProducts[0];
+  let productIndex = shuffledProducts.findIndex(product => product.id === +id);
+
+  let selectedProduct = shuffledProducts[productIndex] || shuffledProducts[0];
+
+  let { name, sprice, aprice } = selectedProduct;
 
   const [open, setOpen] = React.useState(false);
-  const [timeLeft, setTimeLeft] = React.useState(2 * 60); // 15 minutes in seconds
+  const [timeLeft, setTimeLeft] = React.useState(2 * 60);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft((prevTime) => prevTime - 1);
     }, 1000);
 
-    // Cleanup function to clear the interval when the component unmounts
     return () => clearInterval(timer);
-  }, []); // Empty dependency array to run the effect only once on mount
+  }, []);
 
-  // Convert seconds to minutes and seconds for display
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
 
@@ -265,7 +260,7 @@ function Payment() {
           {name}
         </Typography>
         <Typography sx={{}}>Quantity : 1</Typography>
-        <Typography sx={{}}>Size : xs</Typography>
+        {/* <Typography sx={{}}>Size : xs</Typography> */}
       </Box>
     </Section >
       <Section style={{ cursor: "default", padding: "9px 15px" }}>

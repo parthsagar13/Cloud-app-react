@@ -29,10 +29,12 @@ let allProducts = [
     off: 95,
     img: "https://kalamandir.online/static/media/ff1.5f9b1848a7d649ec0e14.webp",
     details: [
-      `Fabric : ${random(Fabrics)}`,
-      "Sleeve Length : Three-Quarter Sleeves",
-      "Pattern : Embroidered",
-      "Combo of : Single",
+      "Fit : Regular Fit",
+      "Fabric : Rayon",
+      "Neck : Mandarin Collar",
+      "Print : All Over Floral Print",
+      "Sleeves :  Half Sleeves with Cuff",
+      "Length: Hip Length"
     ],
   },
   {
@@ -46,10 +48,12 @@ let allProducts = [
     off: 95,
     img: "https://kalamandir.online/static/media/ee1.9d2bdca8426fcc8b01a5.webp",
     details: [
-      `Fabric : ${random(Fabrics)}`,
-      "Sleeve Length : Three-Quarter Sleeves",
-      "Pattern : Embroidered",
-      "Combo of : Single",
+      "Fit : Regular Fit",
+      "Fabric : Rayon",
+      "Neck : Mandarin Collar",
+      "Print : All Over Floral Print",
+      "Sleeves :  Half Sleeves with Cuff",
+      "Length: Hip Length"
     ],
   },
   {
@@ -63,10 +67,12 @@ let allProducts = [
     off: 95,
     img: "https://images.meesho.com/images/products/41713416/fef4b_512.jpg",
     details: [
-      `Fabric: ${random(Fabrics)}`,
-      "Sleeve Length: Three-Quarter Sleeves",
-      "Pattern: Embroidered",
-      "Combo of: Single",
+      "Fit : Regular Fit",
+      "Fabric : Rayon",
+      "Neck : Mandarin Collar",
+      "Print : All Over Floral Print",
+      "Sleeves :  Half Sleeves with Cuff",
+      "Length: Hip Length"
     ],
   },
   {
@@ -80,10 +86,12 @@ let allProducts = [
     off: 95,
     img: "https://kalamandir.online/static/media/hh1.9e9a11318df3e988a166.webp",
     details: [
-      `Fabric : ${random(Fabrics)}`,
-      "Sleeve Length : Three-Quarter Sleeves",
-      "Pattern : Embroidered",
-      "Combo of : Single",
+      "Fit : Regular Fit",
+      "Fabric : Rayon",
+      "Neck : Mandarin Collar",
+      "Print : All Over Floral Print",
+      "Sleeves :  Half Sleeves with Cuff",
+      "Length: Hip Length"
     ],
   },
   {
@@ -97,10 +105,12 @@ let allProducts = [
     off: 95,
     img: "https://kalamandir.online/static/media/gg1.8fcd8a1482debbf5c30a.webp",
     details: [
-      `Fabric : ${random(Fabrics)}`,
-      "Sleeve Length : Three-Quarter Sleeves",
-      "Pattern : Embroidered",
-      "Combo of : Single",
+      "Fit : Regular Fit",
+      "Fabric : Rayon",
+      "Neck : Mandarin Collar",
+      "Print : All Over Floral Print",
+      "Sleeves :  Half Sleeves with Cuff",
+      "Length: Hip Length"
     ],
   },
   {
@@ -114,10 +124,12 @@ let allProducts = [
     off: 95,
     img: "https://kalamandir.online/static/media/ii1.99ec5f2a4ea93f2ea2a1.webp",
     details: [
-      `Fabric : ${random(Fabrics)}`,
-      "Sleeve Length : Three-Quarter Sleeves",
-      "Pattern : Embroidered",
-      "Combo of : Single",
+      "Fit : Regular Fit",
+      "Fabric : Rayon",
+      "Neck : Mandarin Collar",
+      "Print : All Over Floral Print",
+      "Sleeves :  Half Sleeves with Cuff",
+      "Length: Hip Length"
     ],
   },
   

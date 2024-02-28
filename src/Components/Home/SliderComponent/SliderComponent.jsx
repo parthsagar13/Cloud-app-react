@@ -95,7 +95,6 @@ export default function SliderComponent() {
                     style={swiperStyle2}
                     slidesPerView={slidesPerView}
                     spaceBetween={1}
-                    autoplay={{ delay: 100 }}
                 >
                     {images2.map((image, index) => (
                         <SwiperSlide key={index}>
@@ -107,9 +106,10 @@ export default function SliderComponent() {
             <section style={{marginTop: '10px', padding: "10px 0px", background: 'white'}}>
                 <Swiper
                     style={swiperStyle}
-                    spaceBetween={50}
+                    spaceBetween={1}
                     slidesPerView={1}
-                    autoplay={{ delay: 1000 }}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
                 >
                     {images.map((image, index) => (
                         <SwiperSlide key={index}>
